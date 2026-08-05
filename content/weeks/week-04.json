@@ -1,0 +1,45 @@
+{
+  "week": 4,
+  "days": [
+    {
+      "dayIndex": 1,
+      "items": [
+        { "kind": "vocabulary", "setId": "voc-w04" },
+        { "kind": "kanji", "questionIds": ["q-w04-05"] }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "items": [
+        { "kind": "grammar", "setId": "gra-w04" },
+        { "kind": "comparison", "comparisonIds": ["gc-w04-01", "gc-w04-02"] }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "items": [{ "kind": "quiz", "quizId": "w04-reading" }]
+    },
+    {
+      "dayIndex": 4,
+      "items": [{ "kind": "quiz", "quizId": "w04-listening" }]
+    },
+    {
+      "dayIndex": 5,
+      "items": [
+        { "kind": "mistake-review", "strategy": "spaced", "lookbackWeeks": 3, "count": 8 },
+        { "kind": "comparison", "comparisonIds": ["gc-w04-03"] }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "items": [{ "kind": "quiz", "quizId": "w04-review" }]
+    }
+  ],
+  "reviewQuizId": "w04-review",
+  "selfAssessmentPrompts": [
+    "「次第／たとたん／か～ないかのうちに」能不看比較表就選對嗎？判斷點是後句的時態。",
+    "「わけがない」與第 1 週的「わけではない」，現在分得清楚了嗎？",
+    "聽解第一次聽就抓到重點了嗎？還是需要聽到第三遍？"
+  ],
+  "note": "這週開始有讀解與聽解的實際練習。聽解用的是語音合成，語速可在設定頁調整。"
+}

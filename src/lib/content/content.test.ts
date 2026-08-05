@@ -111,6 +111,48 @@ describe('日文標註格式', () => {
     }
   });
 
+  /**
+   * 撰寫內容時混進過西里爾字母（例如「увеличение」），
+   * 那種字元不會讓 JSON 或 schema 出錯，但會被語音引擎唸出來、也會顯示在畫面上。
+   * 這裡把「日文欄位裡不該出現的文字系統」全部擋掉。
+   */
+  it('日文欄位不含西里爾、希臘、韓文等不該出現的字元', () => {
+    const forbidden = /[Ѐ-ӿͰ-Ͽ가-힯֐-׿؀-ۿ]/;
+    const fields: { label: string; text: string }[] = [];
+
+    for (const set of contentIndex.vocabularySets.values()) {
+      for (const item of set.items) {
+        fields.push({ label: `${item.id}.word`, text: item.word });
+        fields.push({ label: `${item.id}.reading`, text: item.reading });
+        item.examples.forEach((ex, i) => fields.push({ label: `${item.id}.ex${i}`, text: ex.jp }));
+      }
+    }
+    for (const set of contentIndex.grammarSets.values()) {
+      for (const item of set.items) {
+        fields.push({ label: `${item.id}.pattern`, text: item.pattern });
+        fields.push({ label: `${item.id}.connection`, text: item.connection });
+        item.examples.forEach((ex, i) => fields.push({ label: `${item.id}.ex${i}`, text: ex.jp }));
+      }
+    }
+    for (const q of contentIndex.questions.values()) {
+      fields.push({ label: `${q.id}.stem`, text: q.stem });
+      q.options.forEach((o) => fields.push({ label: `${q.id}.opt${o.key}`, text: o.text }));
+    }
+    for (const p of contentIndex.passages.values()) {
+      p.paragraphs.forEach((para, i) => fields.push({ label: `${p.id}.para${i}`, text: para }));
+    }
+    for (const l of contentIndex.listening.values()) {
+      if (l.ttsScript) fields.push({ label: `${l.id}.ttsScript`, text: l.ttsScript });
+      l.transcript.forEach((line, i) => fields.push({ label: `${l.id}.transcript${i}`, text: line }));
+    }
+
+    expect(fields.length).toBeGreaterThan(100);
+    for (const field of fields) {
+      const match = forbidden.exec(field.text);
+      expect(match, `${field.label} 含有不該出現的字元「${match?.[0]}」`).toBeNull();
+    }
+  });
+
   it('語彙的 reading 欄位與標註的讀音一致', () => {
     for (const set of contentIndex.vocabularySets.values()) {
       for (const item of set.items) {

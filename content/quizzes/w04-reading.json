@@ -1,0 +1,12 @@
+{
+  "id": "w04-reading",
+  "week": 4,
+  "kind": "drill",
+  "title": "第 4 週讀解練習",
+  "description": "公告一篇、隨筆一篇，共 4 題。先把整篇讀完再看題目，不要邊讀邊查生字。兩篇加起來目標九分鐘之內。",
+  "section": "reading",
+  "questionIds": ["q-w04-r01", "q-w04-r02", "q-w04-r03", "q-w04-r04"],
+  "timeLimitSec": 540,
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "w04-listening",
+  "week": 4,
+  "kind": "drill",
+  "title": "第 4 週聽解練習",
+  "description": "課題理解、ポイント理解、即時応答各一組，共 4 題。先按播放鍵聽一次，作答完之後再看原文——先看原文就沒有練習效果了。不限時，但每題最多聽三遍。",
+  "section": "listening",
+  "questionIds": ["q-w04-l01", "q-w04-l02", "q-w04-l03", "q-w04-l04"],
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題；語音由瀏覽器合成，語速與正式考題不同" }
+}

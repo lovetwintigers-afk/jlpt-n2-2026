@@ -1,0 +1,26 @@
+{
+  "id": "w04-review",
+  "week": 4,
+  "kind": "weekly-review",
+  "title": "第 4 週複習測驗",
+  "description": "形容詞・副詞與易混文法共 12 題。建議限時 12 分鐘。這週的重點是「差一個字意思就不同」，答錯時務必回頭看比較表。",
+  "section": "language-knowledge",
+  "questionIds": [
+    "q-w04-01",
+    "q-w04-02",
+    "q-w04-03",
+    "q-w04-04",
+    "q-w04-05",
+    "q-w04-06",
+    "q-w04-07",
+    "q-w04-08",
+    "q-w04-09",
+    "q-w04-10",
+    "q-w04-11",
+    "q-w04-12"
+  ],
+  "timeLimitSec": 720,
+  "showAnswerMode": "after-submit",
+  "passingAccuracy": 0.7,
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}
