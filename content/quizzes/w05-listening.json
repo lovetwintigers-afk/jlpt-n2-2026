@@ -1,0 +1,11 @@
+{
+  "id": "w05-listening",
+  "week": 5,
+  "kind": "drill",
+  "title": "第 5 週聽解練習",
+  "description": "本週新增「概要理解」題型——它問的是整段話的主旨，不是細節，所以第一次聽的時候不要急著抓數字。不限時，但每題最多聽三遍，作答完再看原文。",
+  "section": "listening",
+  "questionIds": ["q-w05-l01", "q-w05-l02", "q-w05-l03", "q-w05-l04"],
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題；語音由瀏覽器合成，語速與正式考題不同" }
+}

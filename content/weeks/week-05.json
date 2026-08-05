@@ -1,0 +1,60 @@
+{
+  "week": 5,
+  "days": [
+    {
+      "dayIndex": 1,
+      "items": [
+        { "kind": "vocabulary", "setId": "voc-w05" },
+        { "kind": "kanji", "questionIds": ["q-w05-05"] }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "items": [
+        { "kind": "grammar", "setId": "gra-w05" },
+        { "kind": "comparison", "comparisonIds": ["gc-w05-01", "gc-w05-02"] }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "items": [
+        {
+          "kind": "note",
+          "title": "本週讀解的重點：先找路標",
+          "body": "這三篇的長度都在五分鐘之內可以讀完。開始之前先記住四個路標：\n\n「一方で」＝接下來是相反或並存的另一面。「ただし」＝例外或附帶條件，情報検索題的答案常在這裡。「果たして〜だろうか」＝作者其實是否定的。「要するに・つまり・にほかならない」＝這一句多半就是結論。\n\n時間不夠時，先掃這些標記再回頭讀，比從頭慢慢讀有效。"
+        },
+        { "kind": "quiz", "quizId": "w05-reading" }
+      ]
+    },
+    {
+      "dayIndex": 4,
+      "items": [
+        {
+          "kind": "note",
+          "title": "本週新題型：概要理解",
+          "body": "「概要理解」問的是整段話在講什麼，不是細節。所以第一次聽的時候不要急著抓數字和時間，先聽說話者的立場與重點。\n\n判斷方式：說話者否定掉的東西通常不是答案，「ただ」「それより」「私がお願いしたいのは」之後才是重點。"
+        },
+        { "kind": "quiz", "quizId": "w05-listening" }
+      ]
+    },
+    {
+      "dayIndex": 5,
+      "items": [
+        { "kind": "mistake-review", "strategy": "spaced", "lookbackWeeks": 4, "count": 10 },
+        { "kind": "quiz", "quizId": "w05-stage-review" }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "items": [{ "kind": "quiz", "quizId": "w05-review" }]
+    }
+  ],
+  "reviewQuizId": "w05-review",
+  "selfAssessmentPrompts": [
+    "一篇短文能在五分鐘內讀完並作答嗎？還是需要八分鐘以上？",
+    "「に過ぎない」與「にほかならない」的方向分得清楚嗎？",
+    "概要理解第一次聽就抓到主旨了嗎？",
+    "基礎補強階段（第 2–5 週）走完了，四項能力中哪一項現在最沒把握？"
+  ],
+  "note": "這是基礎補強階段的最後一週。第 5 天的階段總複習會重做前四週最容易混淆的題目，答對不是重點，能說出理由才是。"
+}

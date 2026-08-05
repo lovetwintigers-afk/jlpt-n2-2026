@@ -114,6 +114,8 @@ export const grammarItemSchema = z.object({
   examples: z.array(exampleSchema).min(1),
   /** 常見錯誤提醒 */
   cautionZh: z.string().optional(),
+  /** 相關或易混的其他文法 id */
+  relatedIds: z.array(z.string()).default([]),
   difficulty: difficultySchema,
   tags: z.array(z.string()).default([]),
   source: sourceSchema,

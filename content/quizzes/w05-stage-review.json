@@ -1,0 +1,26 @@
+{
+  "id": "w05-stage-review",
+  "week": 5,
+  "kind": "weekly-review",
+  "title": "基礎補強階段總複習（第 1–4 週）",
+  "description": "從前四週挑出最容易混淆的 12 題重做。這些題目你之前做過，重點不是答對，而是能不能說出「為什麼是這個」。說不出理由的，就算猜對也要回頭看比較表。",
+  "section": "language-knowledge",
+  "questionIds": [
+    "q-w01-g06",
+    "q-w02-03",
+    "q-w02-08",
+    "q-w03-05",
+    "q-w03-07",
+    "q-w03-08",
+    "q-w03-12",
+    "q-w04-01",
+    "q-w04-07",
+    "q-w04-08",
+    "q-w04-10",
+    "q-w04-11"
+  ],
+  "timeLimitSec": 720,
+  "showAnswerMode": "after-submit",
+  "passingAccuracy": 0.75,
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題；題目取自第 1–4 週" }
+}

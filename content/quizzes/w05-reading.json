@@ -1,0 +1,12 @@
+{
+  "id": "w05-reading",
+  "week": 5,
+  "kind": "drill",
+  "title": "第 5 週讀解練習（限時）",
+  "description": "隨筆、統計、公告各一篇，共 5 題。本週目標是「一篇短文五分鐘內讀完並作答」，所以設了 15 分鐘的限時。讀不完也沒關係，先知道自己現在的速度在哪裡。",
+  "section": "reading",
+  "questionIds": ["q-w05-r01", "q-w05-r02", "q-w05-r03", "q-w05-r04", "q-w05-r05"],
+  "timeLimitSec": 900,
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

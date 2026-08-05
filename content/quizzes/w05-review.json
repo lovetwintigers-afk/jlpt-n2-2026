@@ -1,0 +1,26 @@
+{
+  "id": "w05-review",
+  "week": 5,
+  "kind": "weekly-review",
+  "title": "第 5 週複習測驗",
+  "description": "讀解與聽解的高頻語彙、論說文標記共 12 題。建議限時 12 分鐘。",
+  "section": "language-knowledge",
+  "questionIds": [
+    "q-w05-01",
+    "q-w05-02",
+    "q-w05-03",
+    "q-w05-04",
+    "q-w05-05",
+    "q-w05-06",
+    "q-w05-07",
+    "q-w05-08",
+    "q-w05-09",
+    "q-w05-10",
+    "q-w05-11",
+    "q-w05-12"
+  ],
+  "timeLimitSec": 720,
+  "showAnswerMode": "after-submit",
+  "passingAccuracy": 0.7,
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}
