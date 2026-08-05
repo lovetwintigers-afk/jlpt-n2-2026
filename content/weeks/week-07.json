@@ -1,0 +1,50 @@
+{
+  "week": 7,
+  "days": [
+    {
+      "dayIndex": 1,
+      "items": [
+        {
+          "kind": "note",
+          "title": "這週的語彙成對記",
+          "body": "十六個詞是八組成對的。同音異義（保証／保障、対象／対照、追求／追究、訪ねる／尋ねる、備える／供える）和近義詞（改善／改良、発達／発展、効率／能率）。\n\n這類詞單獨背沒有用，因為考題就是把兩個放在一起讓你選。記的時候一定要兩個一起看，並且記住**固定搭配**——「社会保障」「品種改良」「対照的」這些組合本身就是答案。"
+        },
+        { "kind": "vocabulary", "setId": "voc-w07" },
+        { "kind": "comparison", "comparisonIds": ["gc-w07-01", "gc-w07-02"] }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "items": [
+        { "kind": "grammar", "setId": "gra-w07" },
+        { "kind": "comparison", "comparisonIds": ["gc-w07-03"] }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "items": [{ "kind": "quiz", "quizId": "w07-reading" }]
+    },
+    {
+      "dayIndex": 4,
+      "items": [{ "kind": "quiz", "quizId": "w07-listening" }]
+    },
+    {
+      "dayIndex": 5,
+      "items": [
+        { "kind": "mistake-review", "strategy": "spaced", "lookbackWeeks": 3, "count": 10 },
+        { "kind": "comparison", "comparisonIds": ["gc-w07-01"] }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "items": [{ "kind": "quiz", "quizId": "w07-review" }]
+    }
+  ],
+  "reviewQuizId": "w07-review",
+  "selfAssessmentPrompts": [
+    "「保証／保障」「対象／対照」「追求／追究」能靠搭配立刻判斷嗎？",
+    "指示詞題（その〜、これ）現在有固定的解法了嗎？",
+    "500 字的中篇文章大約花了幾分鐘？比第 6 週快了嗎？"
+  ],
+  "note": "本週的語彙比較表放在 Day 1 而不是 Day 2——因為這週的重點是語彙辨析，比較表就是語彙內容的一部分。"
+}

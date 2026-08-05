@@ -1,0 +1,12 @@
+{
+  "id": "w07-reading",
+  "week": 7,
+  "kind": "drill",
+  "title": "第 7 週讀解練習（中篇・指示詞）",
+  "description": "隨筆一篇（約 500 字）與案內一篇，共 4 題。這週特別練指示詞——遇到「その〜」「これ」的題目，往前找最近而且能整段代入的內容，不要只看前一個名詞。限時 13 分鐘。",
+  "section": "reading",
+  "questionIds": ["q-w07-r01", "q-w07-r02", "q-w07-r03", "q-w07-r04"],
+  "timeLimitSec": 780,
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

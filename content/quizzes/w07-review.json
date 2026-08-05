@@ -1,0 +1,26 @@
+{
+  "id": "w07-review",
+  "week": 7,
+  "kind": "weekly-review",
+  "title": "第 7 週複習測驗",
+  "description": "近義詞辨析與正式文體文法共 12 題。建議限時 12 分鐘。同音異義詞（保証／保障、対象／対照、追求／追究）只能靠固定搭配判斷，答錯時回頭看比較表的搭配欄。",
+  "section": "language-knowledge",
+  "questionIds": [
+    "q-w07-01",
+    "q-w07-02",
+    "q-w07-03",
+    "q-w07-04",
+    "q-w07-05",
+    "q-w07-06",
+    "q-w07-07",
+    "q-w07-08",
+    "q-w07-09",
+    "q-w07-10",
+    "q-w07-11",
+    "q-w07-12"
+  ],
+  "timeLimitSec": 720,
+  "showAnswerMode": "after-submit",
+  "passingAccuracy": 0.7,
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}
