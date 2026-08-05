@@ -8,17 +8,37 @@
       "questionType": "文脈規定",
       "stem": "経験{けいけん}の不足{ふそく}は、努力{どりょく}で＿＿しかない。",
       "options": [
-        { "key": "A", "text": "補{おぎな}う" },
-        { "key": "B", "text": "省{はぶ}く" },
-        { "key": "C", "text": "抱{かか}える" },
-        { "key": "D", "text": "及{およ}ぼす" }
+        {
+          "key": "A",
+          "text": "補{おぎな}う"
+        },
+        {
+          "key": "B",
+          "text": "省{はぶ}く"
+        },
+        {
+          "key": "C",
+          "text": "抱{かか}える"
+        },
+        {
+          "key": "D",
+          "text": "及{およ}ぼす"
+        }
       ],
       "answer": "A",
       "explanationZh": "「補う」的受詞是「不足している部分」，與「不足」是固定搭配。",
-      "relatedVocabIds": ["v-w02-06"],
+      "relatedVocabIds": [
+        "v-w02-06"
+      ],
       "difficulty": "N2-core",
-      "tags": ["文脈規定", "動詞"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "文脈規定",
+        "動詞"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-02",
@@ -27,17 +47,37 @@
       "questionType": "文脈規定",
       "stem": "その決定{けってい}は業界{ぎょうかい}全体{ぜんたい}に大{おお}きな影響{えいきょう}を＿＿。",
       "options": [
-        { "key": "A", "text": "抱{かか}えた" },
-        { "key": "B", "text": "訴{うった}えた" },
-        { "key": "C", "text": "及{およ}ぼした" },
-        { "key": "D", "text": "見直{みなお}した" }
+        {
+          "key": "A",
+          "text": "抱{かか}えた"
+        },
+        {
+          "key": "B",
+          "text": "訴{うった}えた"
+        },
+        {
+          "key": "C",
+          "text": "及{およ}ぼした"
+        },
+        {
+          "key": "D",
+          "text": "見直{みなお}した"
+        }
       ],
       "answer": "C",
       "explanationZh": "「影響を及ぼす」是固定搭配。記搭配比記單字有效：影響・被害・損害＋を及ぼす。",
-      "relatedVocabIds": ["v-w02-07"],
+      "relatedVocabIds": [
+        "v-w02-07"
+      ],
       "difficulty": "N2-core",
-      "tags": ["文脈規定", "コロケーション"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "文脈規定",
+        "コロケーション"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-03",
@@ -46,10 +86,22 @@
       "questionType": "用法",
       "stem": "「取{と}り組{く}む」の使{つか}い方{かた}として最{もっと}も適切{てきせつ}なものはどれか。",
       "options": [
-        { "key": "A", "text": "彼{かれ}は難{むずか}しい課題{かだい}を取{と}り組{く}んでいる。" },
-        { "key": "B", "text": "会社{かいしゃ}は環境{かんきょう}問題{もんだい}に真剣{しんけん}に取{と}り組{く}んでいる。" },
-        { "key": "C", "text": "友人{ゆうじん}と食事{しょくじ}に取{と}り組{く}んだ。" },
-        { "key": "D", "text": "新{あたら}しい服{ふく}を取{と}り組{く}んで買{か}った。" }
+        {
+          "key": "A",
+          "text": "彼{かれ}は難{むずか}しい課題{かだい}を取{と}り組{く}んでいる。"
+        },
+        {
+          "key": "B",
+          "text": "会社{かいしゃ}は環境{かんきょう}問題{もんだい}に真剣{しんけん}に取{と}り組{く}んでいる。"
+        },
+        {
+          "key": "C",
+          "text": "友人{ゆうじん}と食事{しょくじ}に取{と}り組{く}んだ。"
+        },
+        {
+          "key": "D",
+          "text": "新{あたら}しい服{ふく}を取{と}り組{く}んで買{か}った。"
+        }
       ],
       "answer": "B",
       "explanationZh": "助詞是「に」不是「を」，這正是 A 的錯誤所在。而且對象必須是需要努力的課題，不用於日常小事。",
@@ -58,10 +110,18 @@
         "C": "吃飯不是需要投入心力的課題。",
         "D": "與買東西無關。"
       },
-      "relatedVocabIds": ["v-w02-09"],
+      "relatedVocabIds": [
+        "v-w02-09"
+      ],
       "difficulty": "N2-core",
-      "tags": ["用法", "助詞"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "用法",
+        "助詞"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-04",
@@ -70,17 +130,36 @@
       "questionType": "言い換え類義",
       "stem": "責任{せきにん}の所在{しょざい}が曖昧{あいまい}なままだ。",
       "options": [
-        { "key": "A", "text": "はっきりしない" },
-        { "key": "B", "text": "重{おも}すぎる" },
-        { "key": "C", "text": "決{き}まっている" },
-        { "key": "D", "text": "知{し}られていない" }
+        {
+          "key": "A",
+          "text": "はっきりしない"
+        },
+        {
+          "key": "B",
+          "text": "重{おも}すぎる"
+        },
+        {
+          "key": "C",
+          "text": "決{き}まっている"
+        },
+        {
+          "key": "D",
+          "text": "知{し}られていない"
+        }
       ],
       "answer": "A",
       "explanationZh": "「曖昧」＝含糊、不明確，最接近「はっきりしない」。",
-      "relatedVocabIds": ["v-w02-12"],
+      "relatedVocabIds": [
+        "v-w02-12"
+      ],
       "difficulty": "N2-basic",
-      "tags": ["言い換え類義"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "言い換え類義"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-05",
@@ -89,10 +168,22 @@
       "questionType": "文脈規定",
       "stem": "難{むずか}しそうに見{み}えたが、やってみると＿＿簡単{かんたん}だった。",
       "options": [
-        { "key": "A", "text": "相当{そうとう}" },
-        { "key": "B", "text": "案外{あんがい}" },
-        { "key": "C", "text": "むしろ" },
-        { "key": "D", "text": "せめて" }
+        {
+          "key": "A",
+          "text": "相当{そうとう}"
+        },
+        {
+          "key": "B",
+          "text": "案外{あんがい}"
+        },
+        {
+          "key": "C",
+          "text": "むしろ"
+        },
+        {
+          "key": "D",
+          "text": "せめて"
+        }
       ],
       "answer": "B",
       "explanationZh": "「案外」＝出乎意料地。句中有「〜そうに見えたが」的預期落差，正是「案外」的典型語境。",
@@ -101,10 +192,18 @@
         "C": "「むしろ」用於兩者比較後選擇後者，這裡沒有比較對象。",
         "D": "「せめて」是「至少」。"
       },
-      "relatedVocabIds": ["v-w02-15"],
+      "relatedVocabIds": [
+        "v-w02-15"
+      ],
       "difficulty": "N2-core",
-      "tags": ["文脈規定", "副詞"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "文脈規定",
+        "副詞"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-06",
@@ -113,17 +212,36 @@
       "questionType": "漢字読み",
       "stem": "部署間{ぶしょかん}の円滑なコミュニケーションが欠{か}かせない。",
       "options": [
-        { "key": "A", "text": "えんこつ" },
-        { "key": "B", "text": "まるかつ" },
-        { "key": "C", "text": "えんかつ" },
-        { "key": "D", "text": "えんめつ" }
+        {
+          "key": "A",
+          "text": "えんこつ"
+        },
+        {
+          "key": "B",
+          "text": "まるかつ"
+        },
+        {
+          "key": "C",
+          "text": "えんかつ"
+        },
+        {
+          "key": "D",
+          "text": "えんめつ"
+        }
       ],
       "answer": "C",
       "explanationZh": "「円滑」讀作「えんかつ」。「滑」在此為音讀「カツ」（同「滑走（かっそう）」），不是「なめ（らか）」。",
-      "relatedVocabIds": ["v-w02-13"],
+      "relatedVocabIds": [
+        "v-w02-13"
+      ],
       "difficulty": "N2-core",
-      "tags": ["漢字読み"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "漢字読み"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-07",
@@ -132,17 +250,37 @@
       "questionType": "文法形式の判断",
       "stem": "お客様{きゃくさま}のご予算{よさん}＿＿、最適{さいてき}なプランをご提案{ていあん}いたします。",
       "options": [
-        { "key": "A", "text": "につれて" },
-        { "key": "B", "text": "に応{おう}じて" },
-        { "key": "C", "text": "にわたって" },
-        { "key": "D", "text": "において" }
+        {
+          "key": "A",
+          "text": "につれて"
+        },
+        {
+          "key": "B",
+          "text": "において"
+        },
+        {
+          "key": "C",
+          "text": "にわたって"
+        },
+        {
+          "key": "D",
+          "text": "に応{おう}じて"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanationZh": "後句「ご提案いたします」是有意識的處置，這種時候只能用「に応じて」。「につれて」的後句不能放意志表現。",
-      "relatedGrammarIds": ["g-w02-01"],
+      "relatedGrammarIds": [
+        "g-w02-01"
+      ],
       "difficulty": "N2-core",
-      "tags": ["文法形式の判断", "対応"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "文法形式の判断",
+        "対応"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-08",
@@ -151,20 +289,42 @@
       "questionType": "文法形式の判断",
       "stem": "本社{ほんしゃ}の移転{いてん}＿＿、代表電話番号{だいひょうでんわばんごう}が変更{へんこう}となります。",
       "options": [
-        { "key": "A", "text": "につれて" },
-        { "key": "B", "text": "をめぐって" },
-        { "key": "C", "text": "に伴{ともな}い" },
-        { "key": "D", "text": "に限{かぎ}らず" }
+        {
+          "key": "A",
+          "text": "につれて"
+        },
+        {
+          "key": "B",
+          "text": "をめぐって"
+        },
+        {
+          "key": "C",
+          "text": "に伴{ともな}い"
+        },
+        {
+          "key": "D",
+          "text": "に限{かぎ}らず"
+        }
       ],
       "answer": "C",
       "explanationZh": "搬遷是一次性的事件，不是漸進的變化，因此不能用「につれて」。這種公告文體用「に伴い」最自然。",
       "distractorNotesZh": {
         "A": "「につれて」要求兩邊都是持續性的漸進變化。"
       },
-      "relatedGrammarIds": ["g-w02-02", "g-w02-03"],
+      "relatedGrammarIds": [
+        "g-w02-02",
+        "g-w02-03"
+      ],
       "difficulty": "N2-advanced",
-      "tags": ["文法形式の判断", "変化", "易混"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "文法形式の判断",
+        "変化",
+        "易混"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-09",
@@ -173,17 +333,37 @@
       "questionType": "文法形式の判断",
       "stem": "山{やま}を登{のぼ}る＿＿、気温{きおん}がどんどん下{さ}がってきた。",
       "options": [
-        { "key": "A", "text": "につれて" },
-        { "key": "B", "text": "に応{おう}じて" },
-        { "key": "C", "text": "に対{たい}して" },
-        { "key": "D", "text": "において" }
+        {
+          "key": "A",
+          "text": "につれて"
+        },
+        {
+          "key": "B",
+          "text": "に応{おう}じて"
+        },
+        {
+          "key": "C",
+          "text": "に対{たい}して"
+        },
+        {
+          "key": "D",
+          "text": "において"
+        }
       ],
       "answer": "A",
       "explanationZh": "「登る」與「下がる」都是持續進行的漸進變化，而且句中有「どんどん」，正是「につれて」的典型語境。",
-      "relatedGrammarIds": ["g-w02-03"],
+      "relatedGrammarIds": [
+        "g-w02-03"
+      ],
       "difficulty": "N2-core",
-      "tags": ["文法形式の判断", "変化"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "文法形式の判断",
+        "変化"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-10",
@@ -192,17 +372,37 @@
       "questionType": "文法形式の判断",
       "stem": "調査{ちょうさ}は約{やく}三年{さんねん}＿＿行{おこな}われ、膨大{ぼうだい}なデータが集{あつ}められた。",
       "options": [
-        { "key": "A", "text": "に応{おう}じて" },
-        { "key": "B", "text": "にわたって" },
-        { "key": "C", "text": "につれて" },
-        { "key": "D", "text": "に伴{ともな}って" }
+        {
+          "key": "A",
+          "text": "に応{おう}じて"
+        },
+        {
+          "key": "B",
+          "text": "に伴{ともな}って"
+        },
+        {
+          "key": "C",
+          "text": "につれて"
+        },
+        {
+          "key": "D",
+          "text": "にわたって"
+        }
       ],
-      "answer": "B",
+      "answer": "D",
       "explanationZh": "「三年」是有幅度的期間名詞，強調時間跨度之長時用「にわたって」。",
-      "relatedGrammarIds": ["g-w02-06"],
+      "relatedGrammarIds": [
+        "g-w02-06"
+      ],
       "difficulty": "N2-core",
-      "tags": ["文法形式の判断", "期間"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "文法形式の判断",
+        "期間"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-11",
@@ -211,17 +411,37 @@
       "questionType": "文法形式の判断",
       "stem": "兄{あに}が社交的{しゃこうてき}なの＿＿、弟{おとうと}はとても内気{うちき}だ。",
       "options": [
-        { "key": "A", "text": "について" },
-        { "key": "B", "text": "において" },
-        { "key": "C", "text": "に対{たい}して" },
-        { "key": "D", "text": "にわたって" }
+        {
+          "key": "A",
+          "text": "について"
+        },
+        {
+          "key": "B",
+          "text": "において"
+        },
+        {
+          "key": "C",
+          "text": "に対{たい}して"
+        },
+        {
+          "key": "D",
+          "text": "にわたって"
+        }
       ],
       "answer": "C",
       "explanationZh": "這裡是前後兩者的對照用法「～のに対して」。「について」是「關於（話題）」，不能表示對比。",
-      "relatedGrammarIds": ["g-w02-04"],
+      "relatedGrammarIds": [
+        "g-w02-04"
+      ],
       "difficulty": "N2-core",
-      "tags": ["文法形式の判断", "対比"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "文法形式の判断",
+        "対比"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     },
     {
       "id": "q-w02-12",
@@ -230,17 +450,37 @@
       "questionType": "文法形式の判断",
       "stem": "本大会{ほんたいかい}は来年{らいねん}三月{さんがつ}、大阪{おおさか}＿＿開催{かいさい}される予定{よてい}です。",
       "options": [
-        { "key": "A", "text": "において" },
-        { "key": "B", "text": "につれて" },
-        { "key": "C", "text": "をめぐって" },
-        { "key": "D", "text": "に応{おう}じて" }
+        {
+          "key": "A",
+          "text": "において"
+        },
+        {
+          "key": "B",
+          "text": "につれて"
+        },
+        {
+          "key": "C",
+          "text": "をめぐって"
+        },
+        {
+          "key": "D",
+          "text": "に応{おう}じて"
+        }
       ],
       "answer": "A",
       "explanationZh": "正式公告文體中，表示舉辦地點的「で」會寫成「において」。",
-      "relatedGrammarIds": ["g-w02-05"],
+      "relatedGrammarIds": [
+        "g-w02-05"
+      ],
       "difficulty": "N2-basic",
-      "tags": ["文法形式の判断", "場面"],
-      "source": { "type": "original", "label": "自製" }
+      "tags": [
+        "文法形式の判断",
+        "場面"
+      ],
+      "source": {
+        "type": "original",
+        "label": "自製"
+      }
     }
   ]
 }

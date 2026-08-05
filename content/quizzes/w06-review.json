@@ -1,0 +1,26 @@
+{
+  "id": "w06-review",
+  "week": 6,
+  "kind": "weekly-review",
+  "title": "第 6 週複習測驗",
+  "description": "複合動詞與文法語氣共 12 題。建議限時 12 分鐘。這週的文法差別在「是什麼在逼你」——外在狀況、道理立場，還是自己的情感。",
+  "section": "language-knowledge",
+  "questionIds": [
+    "q-w06-01",
+    "q-w06-02",
+    "q-w06-03",
+    "q-w06-04",
+    "q-w06-05",
+    "q-w06-06",
+    "q-w06-07",
+    "q-w06-08",
+    "q-w06-09",
+    "q-w06-10",
+    "q-w06-11",
+    "q-w06-12"
+  ],
+  "timeLimitSec": 720,
+  "showAnswerMode": "after-submit",
+  "passingAccuracy": 0.7,
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

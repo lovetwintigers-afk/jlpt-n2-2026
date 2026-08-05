@@ -1,0 +1,50 @@
+{
+  "week": 6,
+  "days": [
+    {
+      "dayIndex": 1,
+      "items": [
+        { "kind": "vocabulary", "setId": "voc-w06" },
+        { "kind": "kanji", "questionIds": ["q-w06-06"] }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "items": [
+        {
+          "kind": "note",
+          "title": "這週的文法看的是「語氣」",
+          "body": "這六條文法，中文翻起來都很像「不得不」「忍不住」，但日文裡差別在**是什麼在逼你**。\n\n外在狀況逼的 → ざるを得ない。道理或立場不允許 → わけにはいかない。自己的情感壓不住 → ずにはいられない。\n\n背中文意思會混，記「誰在逼你」就不會。"
+        },
+        { "kind": "grammar", "setId": "gra-w06" },
+        { "kind": "comparison", "comparisonIds": ["gc-w06-01", "gc-w06-02"] }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "items": [{ "kind": "quiz", "quizId": "w06-reading" }]
+    },
+    {
+      "dayIndex": 4,
+      "items": [{ "kind": "quiz", "quizId": "w06-listening" }]
+    },
+    {
+      "dayIndex": 5,
+      "items": [
+        { "kind": "mistake-review", "strategy": "spaced", "lookbackWeeks": 3, "count": 10 },
+        { "kind": "comparison", "comparisonIds": ["gc-w06-01"] }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "items": [{ "kind": "quiz", "quizId": "w06-review" }]
+    }
+  ],
+  "reviewQuizId": "w06-review",
+  "selfAssessmentPrompts": [
+    "「ざるを得ない／わけにはいかない／ずにはいられない」能說出各自是「誰在逼你」嗎？",
+    "「ないわけにはいかない」的雙重否定，看到時反應得過來嗎？",
+    "中篇讀解的時間夠用嗎？一篇大約花了幾分鐘？"
+  ],
+  "note": "能力強化階段的第一週。讀解開始出現較長的文章，聽解的重點放在「順序詞」——その前に、それより。"
+}

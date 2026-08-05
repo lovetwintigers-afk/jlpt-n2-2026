@@ -307,12 +307,25 @@ describe('題目品質', () => {
     }
   });
 
-  it('正確答案不會集中在同一個選項', () => {
+  /**
+   * 「不會就選 B」不能變成有效策略。
+   * 題數少時容忍度放寬，題數多了就要求接近平均（每個選項理論值 25%）。
+   */
+  it('正確答案的分布不會偏向某個選項', () => {
     const counts = { A: 0, B: 0, C: 0, D: 0 };
     for (const q of questions) counts[q.answer]++;
-    const max = Math.max(...Object.values(counts));
-    // 任一選項不得超過總題數的一半，否則等於送分
-    expect(max, `答案分布：${JSON.stringify(counts)}`).toBeLessThanOrEqual(questions.length / 2);
+    const label = `答案分布：${JSON.stringify(counts)}（共 ${questions.length} 題）`;
+
+    if (questions.length >= 40) {
+      // 每個選項都要落在 12%–40% 之間
+      for (const [key, count] of Object.entries(counts)) {
+        const ratio = count / questions.length;
+        expect(ratio, `${label}／選項 ${key} 佔比 ${Math.round(ratio * 100)}%`).toBeGreaterThanOrEqual(0.12);
+        expect(ratio, `${label}／選項 ${key} 佔比 ${Math.round(ratio * 100)}%`).toBeLessThanOrEqual(0.4);
+      }
+    } else {
+      expect(Math.max(...Object.values(counts)), label).toBeLessThanOrEqual(questions.length / 2);
+    }
   });
 
   it('讀解題的 contextId 都指得到文章', () => {

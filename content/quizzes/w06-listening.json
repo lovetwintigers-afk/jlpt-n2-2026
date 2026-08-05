@@ -1,0 +1,11 @@
+{
+  "id": "w06-listening",
+  "week": 6,
+  "kind": "drill",
+  "title": "第 6 週聽解練習",
+  "description": "這週要練的是「順序詞」。聽到「その前に」「それより」時，前面說過的東西往往就不是答案了。不限時，每題最多聽三遍，作答完再看原文。",
+  "section": "listening",
+  "questionIds": ["q-w06-l01", "q-w06-l02", "q-w06-l03", "q-w06-l04"],
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題；語音由瀏覽器合成，語速與正式考題不同" }
+}

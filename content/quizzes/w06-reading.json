@@ -1,0 +1,12 @@
+{
+  "id": "w06-reading",
+  "week": 6,
+  "kind": "drill",
+  "title": "第 6 週讀解練習（中篇初體驗）",
+  "description": "隨筆一篇（比之前長）與社內文書一篇，共 4 題。中篇文章的重點是「先找出作者用什麼句型下判斷」——「〜ではなく〜だ」「〜というより」這類對比句常常就是主張所在。限時 12 分鐘。",
+  "section": "reading",
+  "questionIds": ["q-w06-r01", "q-w06-r02", "q-w06-r03", "q-w06-r04"],
+  "timeLimitSec": 720,
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}
