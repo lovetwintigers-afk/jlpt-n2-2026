@@ -1,0 +1,24 @@
+{
+  "id": "diag-01",
+  "week": 1,
+  "kind": "diagnostic",
+  "title": "基準診斷（上）語彙・文法",
+  "description": "照實作答就好。這份測驗的目的是找出弱點，不是拿高分。不會的題目直接猜，猜完記得標記為不確定。",
+  "section": "language-knowledge",
+  "questionIds": [
+    "q-w01-v01",
+    "q-w01-v02",
+    "q-w01-v03",
+    "q-w01-v04",
+    "q-w01-v05",
+    "q-w01-v06",
+    "q-w01-g01",
+    "q-w01-g02",
+    "q-w01-g03",
+    "q-w01-g04",
+    "q-w01-g05",
+    "q-w01-g06"
+  ],
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

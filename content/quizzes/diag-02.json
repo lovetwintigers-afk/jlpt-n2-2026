@@ -1,0 +1,11 @@
+{
+  "id": "diag-02",
+  "week": 1,
+  "kind": "diagnostic",
+  "title": "基準診斷（下）讀解",
+  "description": "兩篇短文共 5 題。先讀一遍再看題目，不要邊查字典邊讀 —— 這樣才測得出真實的閱讀速度。",
+  "section": "reading",
+  "questionIds": ["q-w01-r01", "q-w01-r02", "q-w01-r03", "q-w01-r04", "q-w01-r05"],
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

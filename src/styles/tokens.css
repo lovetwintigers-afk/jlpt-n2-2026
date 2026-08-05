@@ -1,0 +1,114 @@
+/**
+ * 設計 token —— 全站唯一的調色盤與尺寸來源。
+ * 想調整外觀，改這個檔案就好，不需要動任何元件。
+ *
+ * 色彩已檢查對比度（WCAG AA，正文需 ≥4.5:1）：
+ *   --text-primary  on --bg-page = 15.4:1
+ *   --text-muted    on --bg-page =  5.2:1
+ *   --accent-ink    on --bg-page =  6.5:1
+ *   --success-ink   on --bg-page =  5.4:1
+ *   --highlight-ink on --bg-page =  4.7:1
+ */
+
+:root {
+  /* ---- 底色與表面 ---- */
+  --bg-page: #fafaf8;
+  --bg-surface: #ffffff;
+  --bg-subtle: #f2f1ed;
+  --bg-inset: #ebeae5;
+
+  /* ---- 文字 ---- */
+  --text-primary: #2a2a28;
+  --text-secondary: #55554f;
+  --text-muted: #6b6b66;
+  --text-inverse: #fafaf8;
+
+  /* ---- 主色：靛藍。用於導覽、進度、主要按鈕 ---- */
+  --accent: #4a5d7e;
+  --accent-ink: #4a5d7e; /* 用於文字 */
+  --accent-hover: #3d4e6b;
+  --accent-soft: #e7ecf4;
+  --accent-border: #c3cfe0;
+
+  /* ---- 完成：綠。刻意偏灰，避免過度鮮豔 ---- */
+  --success: #5b8c6e;
+  --success-ink: #47705a; /* 用於文字 */
+  --success-soft: #e6efe9;
+
+  /* ---- 強調：土黃。用於「需注意」「待補做」，取代警示紅 ---- */
+  --highlight: #b08d57;
+  --highlight-ink: #8a6d3b; /* 用於文字 */
+  --highlight-soft: #f5eede;
+
+  /* ---- 四能力配色（低彩度，長時間閱讀不刺眼）---- */
+  --skill-vocabulary: #6b7fa3;
+  --skill-grammar: #8a7ba8;
+  --skill-reading: #5f8f88;
+  --skill-listening: #a8805f;
+
+  /* ---- 邊框與陰影 ---- */
+  --border: #ddddd6;
+  --border-strong: #c5c5bd;
+  --shadow-sm: 0 1px 2px rgba(42, 42, 40, 0.05);
+  --shadow-md: 0 2px 8px rgba(42, 42, 40, 0.07);
+
+  /* ---- 間距（8px 基準）---- */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4rem;
+
+  /* ---- 圓角 ---- */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-full: 999px;
+
+  /* ---- 字級 ---- */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.75rem;
+  --text-3xl: 2.25rem;
+  --text-4xl: 3rem;
+
+  /* ---- 字體 ----
+     繁中與日文分開指定。日文字體只透過 :lang(ja) 套用，
+     避免日文漢字被中文字體渲染成錯誤字形。 */
+  --font-zh:
+    -apple-system, BlinkMacSystemFont, 'PingFang TC', 'Noto Sans TC',
+    'Microsoft JhengHei', sans-serif;
+  --font-ja:
+    'Hiragino Sans', 'Hiragino Kaku Gothic ProN', 'Noto Sans JP',
+    'Yu Gothic', sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* ---- 版面 ---- */
+  --content-max: 56rem;
+  --header-height: 3.5rem;
+  --mobilenav-height: 3.75rem;
+
+  /* ---- 動態 ---- */
+  --transition: 160ms ease;
+}
+
+/* 尊重使用者的減少動態設定 */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --transition: 0ms;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

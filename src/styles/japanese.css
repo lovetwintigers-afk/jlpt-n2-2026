@@ -1,0 +1,80 @@
+/**
+ * 日文排版。
+ *
+ * 關鍵：所有日文內容都必須帶 lang="ja"。
+ * 沒有它，繁中系統會用中文字體渲染日文漢字，字形不同
+ * （例如「直」「骨」「查」「今」），長期閱讀會建立錯誤的字形記憶。
+ */
+
+:lang(ja) {
+  font-family: var(--font-ja);
+  font-feature-settings: 'palt' 1; /* 日文比例間距，排版更緊湊自然 */
+}
+
+/* ---- 振假名 ---- */
+
+ruby {
+  ruby-align: center;
+}
+
+rt {
+  font-size: 0.5em;
+  color: var(--text-muted);
+  font-weight: 400;
+  line-height: 1.2;
+  user-select: none; /* 複製日文時不會把讀音一起複製走 */
+}
+
+/* 隱藏振假名時保留佔位，避免整段文字上下跳動 */
+.furigana-hidden rt {
+  visibility: hidden;
+}
+
+/* 含振假名的段落需要更大行距，否則 rt 會擠到上一行 */
+.ja-block {
+  line-height: 2.1;
+  letter-spacing: 0.02em;
+}
+
+.ja-block--no-ruby {
+  line-height: 1.9;
+}
+
+/* 讀解長文 */
+.ja-passage {
+  font-size: var(--text-lg);
+  line-height: 2.2;
+  letter-spacing: 0.03em;
+}
+
+.ja-passage p + p {
+  margin-top: var(--space-4);
+}
+
+/* 單字大字顯示（語彙卡） */
+.ja-headword {
+  font-size: var(--text-3xl);
+  line-height: 1.8;
+  font-weight: 500;
+}
+
+.ja-headword rt {
+  font-size: 0.4em;
+}
+
+/* 例句 */
+.ja-example {
+  font-size: var(--text-base);
+  line-height: 2.1;
+  color: var(--text-secondary);
+}
+
+@media (max-width: 640px) {
+  .ja-passage {
+    font-size: var(--text-base);
+    line-height: 2.1;
+  }
+  .ja-headword {
+    font-size: var(--text-2xl);
+  }
+}

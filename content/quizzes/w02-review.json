@@ -1,0 +1,26 @@
+{
+  "id": "w02-review",
+  "week": 2,
+  "kind": "weekly-review",
+  "title": "第 2 週複習測驗",
+  "description": "本週語彙與文法共 12 題。建議限時 12 分鐘，模擬正式考試中每題約 1 分鐘的節奏。",
+  "section": "language-knowledge",
+  "questionIds": [
+    "q-w02-01",
+    "q-w02-02",
+    "q-w02-03",
+    "q-w02-04",
+    "q-w02-05",
+    "q-w02-06",
+    "q-w02-07",
+    "q-w02-08",
+    "q-w02-09",
+    "q-w02-10",
+    "q-w02-11",
+    "q-w02-12"
+  ],
+  "timeLimitSec": 720,
+  "showAnswerMode": "after-submit",
+  "passingAccuracy": 0.7,
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

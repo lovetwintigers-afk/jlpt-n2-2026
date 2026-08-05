@@ -1,0 +1,56 @@
+{
+  "week": 2,
+  "days": [
+    {
+      "dayIndex": 1,
+      "items": [
+        { "kind": "vocabulary", "setId": "voc-w02" },
+        { "kind": "kanji", "questionIds": ["q-w02-06"] }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "items": [
+        { "kind": "grammar", "setId": "gra-w02" },
+        { "kind": "comparison", "comparisonIds": ["gc-w02-01"] }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "items": [
+        {
+          "kind": "note",
+          "title": "本週讀解內容尚未加入",
+          "body": "第 3 天的讀解文章還沒建立。今天可以改成把第 1 天的語彙再看一遍，並用例句造三個自己的句子。"
+        }
+      ]
+    },
+    {
+      "dayIndex": 4,
+      "items": [
+        {
+          "kind": "note",
+          "title": "本週聽解內容尚未加入",
+          "body": "聽解功能會在後續階段完成。今天改為朗讀第 2 天的文法例句各三遍，讓句型變成口中說得出來的東西。"
+        }
+      ]
+    },
+    {
+      "dayIndex": 5,
+      "items": [
+        { "kind": "mistake-review", "strategy": "spaced", "lookbackWeeks": 2, "count": 8 },
+        { "kind": "comparison", "comparisonIds": ["gc-w02-01"] }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "items": [{ "kind": "quiz", "quizId": "w02-review" }]
+    }
+  ],
+  "reviewQuizId": "w02-review",
+  "selfAssessmentPrompts": [
+    "「に応じて／に伴って／につれて」現在能不看比較表就選對嗎？",
+    "本週 16 個語彙中，有幾個是看到就能直接反應出意思的？",
+    "每天的 20 分鐘有沒有被其他事情擠掉？"
+  ]
+}
