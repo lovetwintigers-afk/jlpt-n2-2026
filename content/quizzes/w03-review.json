@@ -1,0 +1,26 @@
+{
+  "id": "w03-review",
+  "week": 3,
+  "kind": "weekly-review",
+  "title": "第 3 週複習測驗",
+  "description": "漢字讀音與核心文法共 12 題。建議限時 12 分鐘。這週有兩組易混文法，答錯時看清楚是「依據事實」還是「依據對人的了解」。",
+  "section": "language-knowledge",
+  "questionIds": [
+    "q-w03-01",
+    "q-w03-02",
+    "q-w03-03",
+    "q-w03-04",
+    "q-w03-05",
+    "q-w03-06",
+    "q-w03-07",
+    "q-w03-08",
+    "q-w03-09",
+    "q-w03-10",
+    "q-w03-11",
+    "q-w03-12"
+  ],
+  "timeLimitSec": 720,
+  "showAnswerMode": "after-submit",
+  "passingAccuracy": 0.7,
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

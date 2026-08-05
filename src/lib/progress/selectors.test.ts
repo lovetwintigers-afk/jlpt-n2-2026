@@ -209,8 +209,19 @@ describe('落後的週次', () => {
   });
 
   it('沒有內容的週次不算落後（不能因為我還沒寫內容就說我落後）', () => {
-    const behind = getWeeksBehind(emptyState(), 12);
-    expect(behind.map((b) => b.week)).toEqual([1, 2]);
+    const behind = getWeeksBehind(emptyState(), 17);
+    // 不寫死週次 —— 內容是逐步補上的，這裡驗證的是性質：
+    // 列出來的一定有內容，沒有內容的一定不會被列出來。
+    expect(behind.length).toBeGreaterThan(0);
+    for (const entry of behind) {
+      expect(getWeekProgress(emptyState(), entry.week).total, `第 ${entry.week} 週`).toBeGreaterThan(0);
+    }
+    const listed = new Set(behind.map((b) => b.week));
+    for (let week = 1; week < 17; week++) {
+      if (getWeekProgress(emptyState(), week).total === 0) {
+        expect(listed.has(week), `第 ${week} 週沒有內容，不應算落後`).toBe(false);
+      }
+    }
   });
 });
 

@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom';
 import { JaText } from './JaText';
 import { SpeakButton } from './SpeakButton';
 import { useProgress } from '@/state/ProgressProvider';
-import { getPassage } from '@/lib/content/queries';
+import { getListeningExercise, getPassage } from '@/lib/content/queries';
+import { useSpeech } from '@/lib/speech/useSpeech';
 import { nextAttemptNo } from '@/lib/progress/reducer';
 import { SKILL_LABELS } from '@/lib/course/outline';
 import {
@@ -16,7 +17,7 @@ import {
   type QuizResult,
   type Selections,
 } from '@/lib/quiz/session';
-import type { OptionKey, Quiz, QuizQuestion } from '@/lib/content/schemas';
+import type { ListeningExercise, OptionKey, Quiz, QuizQuestion } from '@/lib/content/schemas';
 
 type Phase = 'intro' | 'answering' | 'result';
 
@@ -308,6 +309,91 @@ function QuizIntro({
   );
 }
 
+/**
+ * 聽解題組的播放面板。
+ *
+ * 沒有音檔時用瀏覽器的語音合成朗讀 —— 這是刻意的三段降級：
+ * 自備音檔 → 語音合成 → 直接看原文。任何環境都不會變成死路。
+ *
+ * 原文預設收合。聽解練習的重點是「聽」，先看原文就失去意義了，
+ * 但也不強制隱藏 —— 聽三遍還是聽不懂時，看原文比卡住更有幫助。
+ */
+function ListeningPanel({
+  exercise,
+  revealTranscript,
+}: {
+  exercise: ListeningExercise;
+  revealTranscript: boolean;
+}) {
+  const [showTranscript, setShowTranscript] = useState(revealTranscript);
+  const [playCount, setPlayCount] = useState(0);
+  const { available, speakingId, speak } = useSpeech();
+
+  const script = exercise.ttsScript ?? exercise.transcript.map((line) => line).join('\n');
+  const speechId = `listening-${exercise.id}`;
+  const isPlaying = speakingId === speechId;
+
+  return (
+    <section className="card">
+      <h2 className="card__title">
+        聽解　<span lang="ja">{exercise.exerciseType}</span>
+      </h2>
+      <p className="dash__today-title">{exercise.title}</p>
+
+      {exercise.audioSrc ? (
+        <audio controls src={exercise.audioSrc} className="listening__audio">
+          您的瀏覽器不支援音訊播放。
+        </audio>
+      ) : available ? (
+        <div className="listening__controls">
+          <button
+            type="button"
+            className="btn btn--primary"
+            onClick={() => {
+              if (!isPlaying) setPlayCount((count) => count + 1);
+              speak(script, 'text', speechId);
+            }}
+          >
+            {isPlaying ? '■ 停止' : '▶ 播放'}
+          </button>
+          <span className="muted">
+            已播放 {playCount} 次
+            {exercise.speakerCount === 2 && '・雙人對話由同一個語音朗讀'}
+          </span>
+        </div>
+      ) : (
+        <p className="empty-state">
+          這個瀏覽器沒有可用的日文語音，請直接看下方原文。
+        </p>
+      )}
+
+      <p style={{ marginTop: 'var(--space-4)' }}>
+        <button
+          type="button"
+          className="linkbutton"
+          onClick={() => setShowTranscript((value) => !value)}
+          aria-expanded={showTranscript}
+        >
+          {showTranscript ? '收合原文' : '顯示原文'}
+        </button>
+      </p>
+
+      {showTranscript && (
+        <div className="ja-block" style={{ marginTop: 'var(--space-3)' }}>
+          {exercise.transcript.map((line, i) => (
+            <JaText key={i} text={line} as="p" />
+          ))}
+          {exercise.transcriptZh && (
+            <p className="vocabitem__zh" style={{ marginTop: 'var(--space-3)' }}>
+              {exercise.transcriptZh}
+            </p>
+          )}
+        </div>
+      )}
+    </section>
+  );
+}
+
 function QuestionCard({
   question,
   selected,
@@ -320,9 +406,12 @@ function QuestionCard({
   revealAnswer: boolean;
 }) {
   const passage = question.contextId ? getPassage(question.contextId) : undefined;
+  const listening = question.contextId ? getListeningExercise(question.contextId) : undefined;
 
   return (
     <>
+      {listening && <ListeningPanel exercise={listening} revealTranscript={revealAnswer} />}
+
       {passage && (
         <section className="card">
           <h2 className="card__title">{passage.title}</h2>

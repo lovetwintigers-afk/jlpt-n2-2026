@@ -1,0 +1,56 @@
+{
+  "week": 3,
+  "days": [
+    {
+      "dayIndex": 1,
+      "items": [
+        { "kind": "vocabulary", "setId": "voc-w03" },
+        { "kind": "kanji", "questionIds": ["q-w03-01", "q-w03-02"] }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "items": [
+        { "kind": "grammar", "setId": "gra-w03" },
+        { "kind": "comparison", "comparisonIds": ["gc-w03-01", "gc-w03-02"] }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "items": [
+        {
+          "kind": "note",
+          "title": "本週讀解內容尚未加入",
+          "body": "第 3 週的讀解文章還沒建立。今天改成把第 1 天的十六個語彙唸過一遍（用發音按鈕跟讀），並挑三個詞造自己的句子。\n\n造句是最有效的語彙練習——能造得出來，才是真的會用。"
+        }
+      ]
+    },
+    {
+      "dayIndex": 4,
+      "items": [
+        {
+          "kind": "note",
+          "title": "本週聽解內容尚未加入",
+          "body": "今天改成朗讀第 2 天的六條文法例句各三遍。用發音按鈕先聽一次，再自己跟著唸。\n\n重點放在「～ことから」和「～ことだから」的差別上，這兩個唸起來很像，但用法完全不同。"
+        }
+      ]
+    },
+    {
+      "dayIndex": 5,
+      "items": [
+        { "kind": "mistake-review", "strategy": "spaced", "lookbackWeeks": 2, "count": 8 },
+        { "kind": "comparison", "comparisonIds": ["gc-w03-01"] }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "items": [{ "kind": "quiz", "quizId": "w03-review" }]
+    }
+  ],
+  "reviewQuizId": "w03-review",
+  "selfAssessmentPrompts": [
+    "「滞る・怠る・陥る・損なう」這四個訓讀動詞，看到漢字能立刻唸出來嗎？",
+    "「ことから」與「ことだから」現在能不看比較表就分辨嗎？",
+    "這週的十六個語彙，有幾個能造出自己的句子？"
+  ]
+}

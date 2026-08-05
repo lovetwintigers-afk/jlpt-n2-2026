@@ -1199,6 +1199,19 @@ button.option:hover {
   border-left-color: var(--highlight);
 }
 
+.listening__controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-3);
+}
+
+.listening__audio {
+  width: 100%;
+  margin-top: var(--space-3);
+}
+
 .vocabhints {
   margin-top: var(--space-4);
   padding: var(--space-3) var(--space-4);

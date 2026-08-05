@@ -185,6 +185,71 @@ describe('日文標註格式', () => {
   });
 });
 
+describe('跨週的內容品質（一次撰寫 17 週才做得到的檢查）', () => {
+  it('同一個語彙不會在不同週重複出現', () => {
+    const seen = new Map<string, string>();
+    for (const set of contentIndex.vocabularySets.values()) {
+      for (const item of set.items) {
+        const key = `${item.word}|${item.reading}`;
+        const previous = seen.get(key);
+        expect(
+          previous,
+          `語彙「${item.reading}」重複：${previous} 與 ${item.id}（第 ${item.week} 週）`,
+        ).toBeUndefined();
+        seen.set(key, `${item.id}（第 ${item.week} 週）`);
+      }
+    }
+  });
+
+  it('同一個文法句型不會在不同週重複教', () => {
+    const seen = new Map<string, string>();
+    for (const set of contentIndex.grammarSets.values()) {
+      for (const item of set.items) {
+        const previous = seen.get(item.pattern);
+        expect(
+          previous,
+          `文法「${item.pattern}」重複：${previous} 與 ${item.id}（第 ${item.week} 週）`,
+        ).toBeUndefined();
+        seen.set(item.pattern, `${item.id}（第 ${item.week} 週）`);
+      }
+    }
+  });
+
+  it('id 的週次前綴與 week 欄位一致（避免複製貼上時漏改）', () => {
+    const check = (id: string, week: number, label: string) => {
+      const match = /w(\d{2})/.exec(id);
+      if (!match) return;
+      expect(Number(match[1]), `${label}：id 是 ${id} 但 week 是 ${week}`).toBe(week);
+    };
+    for (const set of contentIndex.vocabularySets.values()) {
+      for (const item of set.items) check(item.id, item.week, item.id);
+    }
+    for (const set of contentIndex.grammarSets.values()) {
+      for (const item of set.items) check(item.id, item.week, item.id);
+    }
+    for (const question of contentIndex.questions.values()) {
+      check(question.id, question.week, question.id);
+    }
+  });
+
+  it('難度隨週次遞進：基礎階段以 basic/core 為主，不出現 advanced 佔多數', () => {
+    const byWeek = new Map<number, string[]>();
+    for (const set of contentIndex.vocabularySets.values()) {
+      for (const item of set.items) {
+        byWeek.set(item.week, [...(byWeek.get(item.week) ?? []), item.difficulty]);
+      }
+    }
+    for (const [week, difficulties] of byWeek) {
+      if (week > 5 || difficulties.length === 0) continue;
+      const advanced = difficulties.filter((d) => d === 'N2-advanced').length;
+      expect(
+        advanced / difficulties.length,
+        `第 ${week} 週（基礎階段）的 N2-advanced 比例過高`,
+      ).toBeLessThanOrEqual(0.25);
+    }
+  });
+});
+
 describe('題目品質', () => {
   const questions = [...contentIndex.questions.values()];
 
