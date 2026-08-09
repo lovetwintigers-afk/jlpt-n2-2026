@@ -1,0 +1,52 @@
+{
+  "week": 8,
+  "days": [
+    {
+      "dayIndex": 1,
+      "items": [
+        { "kind": "vocabulary", "setId": "voc-w08" },
+        { "kind": "comparison", "comparisonIds": ["gc-w08-01", "gc-w08-02"] }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "items": [
+        { "kind": "grammar", "setId": "gra-w08" },
+        { "kind": "comparison", "comparisonIds": ["gc-w08-03"] }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "items": [{ "kind": "quiz", "quizId": "w08-reading" }]
+    },
+    {
+      "dayIndex": 4,
+      "items": [
+        {
+          "kind": "note",
+          "title": "課題理解的三個問題",
+          "body": "這個題型問的是「接下來要做什麼」，對話裡一定會混入好幾件事。聽的時候在心裡問三個問題：\n\n**誰要做？** 有人說「それは僕がやっておくよ」，那件事就不是答案。\n**什麼時候？** 「後でも大丈夫」「明日の朝に」的都不是「まず」要做的。\n**被推翻了嗎？** 「その前に」「それより」之後才是真正的指示。\n\n這三個字是課題理解的路標：まず、その前に、それより。"
+        },
+        { "kind": "quiz", "quizId": "w08-listening" }
+      ]
+    },
+    {
+      "dayIndex": 5,
+      "items": [
+        { "kind": "mistake-review", "strategy": "spaced", "lookbackWeeks": 3, "count": 10 },
+        { "kind": "comparison", "comparisonIds": ["gc-w08-01"] }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "items": [{ "kind": "quiz", "quizId": "w08-review" }]
+    }
+  ],
+  "reviewQuizId": "w08-review",
+  "selfAssessmentPrompts": [
+    "呼應副詞（到底・ろくに・二度と・まさか）看到就知道句尾要用否定嗎？",
+    "「ばかりに／あまり／だけあって／からこそ」能靠「結果是好是壞」先刷掉一半嗎？",
+    "課題理解題有在心裡分類「誰做、何時做」嗎？還是聽完就忘了？"
+  ],
+  "note": "本週的語彙比較表放在 Day 1，因為呼應副詞與接續詞的辨析就是語彙內容本身。"
+}

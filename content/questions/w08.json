@@ -1,0 +1,410 @@
+{
+  "week": 8,
+  "questions": [
+    {
+      "id": "q-w08-01",
+      "week": 8,
+      "skill": "vocabulary",
+      "questionType": "文脈規定",
+      "stem": "忙{いそが}しくて、この一週間{いっしゅうかん}＿＿食事{しょくじ}もしていない。",
+      "options": [
+        { "key": "A", "text": "ろくに" },
+        { "key": "B", "text": "しばしば" },
+        { "key": "C", "text": "絶{た}えず" },
+        { "key": "D", "text": "主{おも}に" }
+      ],
+      "answer": "A",
+      "explanationZh": "「ろくに」後面一定接否定，意思是「沒有好好地…」，帶有抱怨的語氣。這裡句尾是「していない」，正好呼應。",
+      "distractorNotesZh": {
+        "B": "「しばしば」是頻率高，不與否定呼應。",
+        "C": "「絶えず」是持續不斷，接否定意思會變得矛盾。"
+      },
+      "relatedVocabIds": ["v-w08-09"],
+      "difficulty": "N2-core",
+      "tags": ["文脈規定", "副詞", "呼応"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-02",
+      "week": 8,
+      "skill": "vocabulary",
+      "questionType": "文脈規定",
+      "stem": "＿＿彼{かれ}があの会社{かいしゃ}を辞{や}めるとは思{おも}わなかった。",
+      "options": [
+        { "key": "A", "text": "いっそ" },
+        { "key": "B", "text": "かろうじて" },
+        { "key": "C", "text": "まさか" },
+        { "key": "D", "text": "少{すく}なくとも" }
+      ],
+      "answer": "C",
+      "explanationZh": "「まさか〜とは思わなかった」是固定搭配，表示強烈的意外。看到「〜とは」就要想到它。",
+      "relatedVocabIds": ["v-w08-02"],
+      "difficulty": "N2-core",
+      "tags": ["文脈規定", "副詞", "呼応"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-03",
+      "week": 8,
+      "skill": "vocabulary",
+      "questionType": "言い換え類義",
+      "stem": "この数字{すうじ}はあくまで目安{めやす}で、確定{かくてい}したものではありません。",
+      "options": [
+        { "key": "A", "text": "どこまでも正確{せいかく}な" },
+        { "key": "B", "text": "あらかじめ決{き}まった" },
+        { "key": "C", "text": "少{すく}なくとも必要{ひつよう}な" },
+        { "key": "D", "text": "あくまでも参考{さんこう}にすぎない" }
+      ],
+      "answer": "D",
+      "explanationZh": "這裡的「あくまで」是「終究只是」，用來預先劃清界線。後半句「確定したものではありません」也印證了這個語氣。",
+      "relatedVocabIds": ["v-w08-04", "v-w05-05"],
+      "difficulty": "N2-core",
+      "tags": ["言い換え類義", "副詞"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-04",
+      "week": 8,
+      "skill": "vocabulary",
+      "questionType": "文脈規定",
+      "stem": "同{おな}じ問{と}い合{あ}わせが続{つづ}いた。＿＿、案内{あんない}のページを作{つく}ることにした。",
+      "options": [
+        { "key": "A", "text": "ところが" },
+        { "key": "B", "text": "そこで" },
+        { "key": "C", "text": "なお" },
+        { "key": "D", "text": "ただ" }
+      ],
+      "answer": "B",
+      "explanationZh": "前面是狀況，後面是因此有意識採取的行動——這正是「そこで」。",
+      "distractorNotesZh": {
+        "A": "「ところが」是出乎意料的逆接，這裡前後沒有矛盾。",
+        "C": "「なお」是補充附帶資訊，不用於因果。"
+      },
+      "relatedVocabIds": ["v-w08-12"],
+      "difficulty": "N2-basic",
+      "tags": ["文脈規定", "接続詞"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-05",
+      "week": 8,
+      "skill": "vocabulary",
+      "questionType": "文脈規定",
+      "stem": "回答率{かいとうりつ}が低{ひく}い。＿＿、この結果{けっか}は参考程度{さんこうていど}にとどめるべきだ。",
+      "options": [
+        { "key": "A", "text": "ただし" },
+        { "key": "B", "text": "ところが" },
+        { "key": "C", "text": "したがって" },
+        { "key": "D", "text": "いっそ" }
+      ],
+      "answer": "C",
+      "explanationZh": "由前述事實導出合理的結論，用「したがって」。論說文裡看到它，後面那句往往就是主張。",
+      "relatedVocabIds": ["v-w08-14"],
+      "difficulty": "N2-core",
+      "tags": ["文脈規定", "接続詞", "論説"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-06",
+      "week": 8,
+      "skill": "vocabulary",
+      "questionType": "用法",
+      "stem": "「いっそ」の使{つか}い方{かた}として最{もっと}も適切{てきせつ}なものはどれか。",
+      "options": [
+        { "key": "A", "text": "少{すこ}しずつ直{なお}すぐらいなら、いっそ全部{ぜんぶ}作{つく}り直{なお}したほうが早{はや}い。" },
+        { "key": "B", "text": "彼{かれ}はいっそ毎日{まいにち}遅刻{ちこく}している。" },
+        { "key": "C", "text": "この料理{りょうり}はいっそおいしい。" },
+        { "key": "D", "text": "いっそ三年間{さんねんかん}この町{まち}に住{す}んでいる。" }
+      ],
+      "answer": "A",
+      "explanationZh": "「いっそ」是「與其那樣，乾脆選一個更徹底的做法」，前面通常有「〜ぐらいなら」這種比較的前提。",
+      "distractorNotesZh": {
+        "B": "頻率高要用「しばしば」或「よく」。",
+        "C": "「いっそ」不能單純修飾形容詞的程度。",
+        "D": "期間的長度用「もう」「かれこれ」。"
+      },
+      "relatedVocabIds": ["v-w08-01"],
+      "difficulty": "N2-core",
+      "tags": ["用法", "副詞"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-07",
+      "week": 8,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "一言{ひとこと}余計{よけい}なことを言{い}った＿＿、話{はなし}がこじれてしまった。",
+      "options": [
+        { "key": "A", "text": "だけあって" },
+        { "key": "B", "text": "からこそ" },
+        { "key": "C", "text": "ばかりに" },
+        { "key": "D", "text": "ことに" }
+      ],
+      "answer": "C",
+      "explanationZh": "「就因為多說了一句這件小事，結果出了麻煩」——單一原因造成負面結果，帶有後悔，用「～ばかりに」。",
+      "distractorNotesZh": {
+        "A": "「だけあって」後句一定是正面的評價。"
+      },
+      "relatedGrammarIds": ["g-w08-03"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "原因・理由", "易混"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-08",
+      "week": 8,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "緊張{きんちょう}の＿＿、用意{ようい}してきた言葉{ことば}をすっかり忘{わす}れてしまった。",
+      "options": [
+        { "key": "A", "text": "あまり" },
+        { "key": "B", "text": "ばかりに" },
+        { "key": "C", "text": "だけあって" },
+        { "key": "D", "text": "ものだから" }
+      ],
+      "answer": "A",
+      "explanationZh": "「名詞の＋あまり」表示程度太過頭導致不好的結果。「緊張のあまり」是固定搭配。",
+      "distractorNotesZh": {
+        "B": "「ばかりに」前面要接句子，不是「緊張の」這種名詞＋の的形式。"
+      },
+      "relatedGrammarIds": ["g-w08-02"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "原因・理由", "易混"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-09",
+      "week": 8,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "長年{ながねん}この道{みち}に携{たずさ}わってきた＿＿、説明{せつめい}が実{じつ}に分{わ}かりやすい。",
+      "options": [
+        { "key": "A", "text": "ばかりに" },
+        { "key": "B", "text": "あまり" },
+        { "key": "C", "text": "ものだから" },
+        { "key": "D", "text": "だけあって" }
+      ],
+      "answer": "D",
+      "explanationZh": "後句是正面的評價，而且帶有「果然如此」的認可語氣，用「～だけあって」。",
+      "relatedGrammarIds": ["g-w08-04"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "評価", "易混"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-10",
+      "week": 8,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "厳{きび}しいことを言{い}うのは、期待{きたい}している＿＿だ。",
+      "options": [
+        { "key": "A", "text": "からこそ" },
+        { "key": "B", "text": "ばかり" },
+        { "key": "C", "text": "あまり" },
+        { "key": "D", "text": "ものの" }
+      ],
+      "answer": "A",
+      "explanationZh": "「～からこそ」在強調「真正的理由是這個，不是你想的那個」。這裡是要澄清嚴厲並非討厭對方。",
+      "relatedGrammarIds": ["g-w08-05"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "強調"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-11",
+      "week": 8,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "電車{でんしゃ}が止{と}まっていた＿＿、遅{おく}れてしまいました。申{もう}し訳{わけ}ありません。",
+      "options": [
+        { "key": "A", "text": "だけあって" },
+        { "key": "B", "text": "ものだから" },
+        { "key": "C", "text": "からこそ" },
+        { "key": "D", "text": "ことに" }
+      ],
+      "answer": "B",
+      "explanationZh": "「～ものだから」用來為自己的行為辯解，帶有「請體諒」的口氣。後面接道歉是最典型的組合。",
+      "relatedGrammarIds": ["g-w08-01"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "原因・理由", "話し言葉"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-12",
+      "week": 8,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "驚{おどろ}いた＿＿、応募者{おうぼしゃ}は千人{せんにん}を超{こ}えていた。",
+      "options": [
+        { "key": "A", "text": "ばかりに" },
+        { "key": "B", "text": "あまり" },
+        { "key": "C", "text": "ことに" },
+        { "key": "D", "text": "だけあって" }
+      ],
+      "answer": "C",
+      "explanationZh": "「～ことに」放在句首，先說出感想再講事實。前面只能接表示情緒的詞（驚いた・うれしい・残念な）。",
+      "relatedGrammarIds": ["g-w08-06"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "感情"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-r01",
+      "week": 8,
+      "skill": "reading",
+      "questionType": "主張理解",
+      "contextId": "read-w08-01",
+      "stem": "筆者{ひっしゃ}の考{かんが}えに最{もっと}も近{ちか}いものはどれか。",
+      "options": [
+        { "key": "A", "text": "説明書{せつめいしょ}は最後{さいご}まで読{よ}むべきだ" },
+        { "key": "B", "text": "読{よ}まなくても使{つか}えることは設計{せっけい}の成果{せいか}である" },
+        { "key": "C", "text": "最近{さいきん}の人{ひと}は面倒{めんどう}くさがりになった" },
+        { "key": "D", "text": "説明書{せつめいしょ}をもっと短{みじか}くすべきだ" }
+      ],
+      "answer": "B",
+      "explanationZh": "第三段：「読まなくても使えるように作られていること、それ自体が設計の成果なのではないか」。C 是筆者刻意提出再推翻的說法——第二段開頭用「ところが」把它否定掉了。",
+      "relatedVocabIds": ["v-w08-13"],
+      "difficulty": "N2-core",
+      "tags": ["主張理解", "エッセイ"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-r02",
+      "week": 8,
+      "skill": "reading",
+      "questionType": "内容理解(中)",
+      "contextId": "read-w08-01",
+      "stem": "筆者{ひっしゃ}が「怠{なま}けではない」と考{かんが}える根拠{こんきょ}は何{なに}か。",
+      "options": [
+        { "key": "A", "text": "説明書{せつめいしょ}を読{よ}む人{ひと}が二割{にわり}いるから" },
+        { "key": "B", "text": "説明書{せつめいしょ}が長{なが}すぎるから" },
+        { "key": "C", "text": "読{よ}まなかった人{ひと}の多{おお}くが困{こま}らなかったと答{こた}えたから" },
+        { "key": "D", "text": "必要{ひつよう}なページだけ開{ひら}く人{ひと}がいるから" }
+      ],
+      "answer": "C",
+      "explanationZh": "第二段：「八割以上が『特に困らなかった』と答えている。困らなかったのなら、読まなかったのは怠けではなく…」。理由句就緊接在資料之後。",
+      "relatedVocabIds": ["v-w05-02"],
+      "difficulty": "N2-core",
+      "tags": ["内容理解", "エッセイ"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-r03",
+      "week": 8,
+      "skill": "reading",
+      "questionType": "情報検索",
+      "contextId": "read-w08-02",
+      "stem": "健康診断{けんこうしんだん}の前日{ぜんじつ}について、正{ただ}しいものはどれか。",
+      "options": [
+        { "key": "A", "text": "午後{ごご}九時{くじ}以降{いこう}は水{みず}も飲{の}んではいけない" },
+        { "key": "B", "text": "午後{ごご}九時{くじ}以降{いこう}の飲食{いんしょく}は控{ひか}えるが、水{みず}とお茶{ちゃ}はよい" },
+        { "key": "C", "text": "前日{ぜんじつ}は何{なに}を食{た}べてもかまわない" },
+        { "key": "D", "text": "前日{ぜんじつ}の朝{あさ}から何{なに}も食{た}べてはいけない" }
+      ],
+      "answer": "B",
+      "explanationZh": "第四段：「前日の午後九時以降の飲食をお控えください。ただし、水とお茶は当日の朝まで問題ありません」。「ただし」後面就是例外條件——這正是本週比較表整理的重點。",
+      "relatedVocabIds": ["v-w05-13"],
+      "difficulty": "N2-core",
+      "tags": ["情報検索", "お知らせ"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-r04",
+      "week": 8,
+      "skill": "reading",
+      "questionType": "情報検索",
+      "contextId": "read-w08-02",
+      "stem": "十一月{じゅういちがつ}の期間中{きかんちゅう}はどうしても都合{つごう}がつかない。費用{ひよう}を会社{かいしゃ}に負担{ふたん}してもらうにはどうすればよいか。",
+      "options": [
+        { "key": "A", "text": "十月末{じゅうがつまつ}までに人事課{じんじか}に連絡{れんらく}する" },
+        { "key": "B", "text": "十一月{じゅういちがつ}中{ちゅう}に人事課{じんじか}に連絡{れんらく}する" },
+        { "key": "C", "text": "指定{してい}の医療機関{いりょうきかん}に直接{ちょくせつ}申{もう}し込{こ}む" },
+        { "key": "D", "text": "社内{しゃない}システムから予約{よやく}を取{と}り消{け}す" }
+      ],
+      "answer": "A",
+      "explanationZh": "最後一段：可個別受檢，但「その場合は、十月末までに人事課へご連絡ください。連絡のないまま期間を過ぎた場合、費用は自己負担となります」。這題要把「なお」之後的兩句合起來讀才答得出來。",
+      "relatedVocabIds": ["v-w08-15"],
+      "difficulty": "N2-advanced",
+      "tags": ["情報検索", "お知らせ"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-l01",
+      "week": 8,
+      "skill": "listening",
+      "questionType": "課題理解",
+      "contextId": "lis-w08-01",
+      "stem": "女{おんな}の人{ひと}が引{ひ}っ越{こ}す前{まえ}にしなければならないことは何{なに}ですか。",
+      "options": [
+        { "key": "A", "text": "郵便局{ゆうびんきょく}で転送{てんそう}の手続{てつづ}きをする" },
+        { "key": "B", "text": "引{ひ}っ越{こ}し先{さき}で転入届{てんにゅうとどけ}を出{だ}す" },
+        { "key": "C", "text": "市役所{しやくしょ}で転出届{てんしゅつとどけ}を出{だ}す" },
+        { "key": "D", "text": "インターネットで住所変更{じゅうしょへんこう}をする" }
+      ],
+      "answer": "C",
+      "explanationZh": "男方明確說「転出届は引っ越す前です」。B 是搬完之後十四天內，A 可以之後再辦。課題理解題常把好幾件事混在一起，關鍵是聽出「哪一件、什麼時候」。",
+      "difficulty": "N2-core",
+      "tags": ["課題理解", "生活"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-l02",
+      "week": 8,
+      "skill": "listening",
+      "questionType": "課題理解",
+      "contextId": "lis-w08-02",
+      "stem": "女{おんな}の人{ひと}はこのあと何{なに}をしますか。",
+      "options": [
+        { "key": "A", "text": "資料{しりょう}を印刷{いんさつ}する" },
+        { "key": "B", "text": "修正版{しゅうせいばん}を男{おとこ}の人{ひと}に送{おく}る" },
+        { "key": "C", "text": "参加者{さんかしゃ}に連絡{れんらく}する" },
+        { "key": "D", "text": "総務{そうむ}に部数{ぶすう}の変更{へんこう}を伝{つた}える" }
+      ],
+      "answer": "D",
+      "explanationZh": "男方建議「部数は印刷を担当される総務にお伝えいただいたほうが確実」，女方回「そうですね、そうします」——這句同意就是關鍵。A 是明天早上才做，B 是男方要做的。",
+      "difficulty": "N2-advanced",
+      "tags": ["課題理解", "ビジネス"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-l03",
+      "week": 8,
+      "skill": "listening",
+      "questionType": "即時応答",
+      "contextId": "lis-w08-03",
+      "stem": "一番{いちばん}「今更{いまさら}言{い}っても仕方{しかた}がないですよ。」への返事{へんじ}として最{もっと}も適切{てきせつ}なものはどれか。",
+      "options": [
+        { "key": "A", "text": "そうですね、次{つぎ}に生{い}かすことにします。" },
+        { "key": "B", "text": "はい、今{いま}すぐ言{い}います。" },
+        { "key": "C", "text": "では、もっと早{はや}く言{い}えばよかったですね。" },
+        { "key": "D", "text": "いいえ、まだ間{ま}に合{あ}いますよ。" }
+      ],
+      "answer": "A",
+      "explanationZh": "「今更」＝事到如今已經來不及。所以自然的回應是接受並轉向未來。C 表面上像是同意，但「言えばよかった」是在重複懊悔，沒有回應對方「別再說了」的意思。",
+      "relatedVocabIds": ["v-w08-03"],
+      "difficulty": "N2-advanced",
+      "tags": ["即時応答", "副詞"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w08-l04",
+      "week": 8,
+      "skill": "listening",
+      "questionType": "即時応答",
+      "contextId": "lis-w08-03",
+      "stem": "三番{さんばん}「ろくに休{やす}んでないんじゃないですか。」への返事{へんじ}として最{もっと}も適切{てきせつ}なものはどれか。",
+      "options": [
+        { "key": "A", "text": "ええ、十分{じゅうぶん}休{やす}めました。" },
+        { "key": "B", "text": "はい、しっかり休{やす}んでいます。" },
+        { "key": "C", "text": "そうなんです。今週{こんしゅう}はずっとこの調子{ちょうし}で。" },
+        { "key": "D", "text": "いいえ、休{やす}まないほうがいいです。" }
+      ],
+      "answer": "C",
+      "explanationZh": "「ろくに〜ない」是在關心對方沒好好休息。C 承認並補充狀況，是最自然的回應。A、B 沒有讀懂對方是在擔心，而且與「じゃないですか」的推測語氣對不上。",
+      "relatedVocabIds": ["v-w08-09"],
+      "difficulty": "N2-core",
+      "tags": ["即時応答", "配慮表現"],
+      "source": { "type": "original", "label": "自製" }
+    }
+  ]
+}
