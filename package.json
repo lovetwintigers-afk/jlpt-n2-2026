@@ -11,6 +11,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:content": "vitest run src/lib/content",
+    "deploy": "bash scripts/deploy-gh-pages.sh",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
