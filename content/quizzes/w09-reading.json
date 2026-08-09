@@ -1,0 +1,12 @@
+{
+  "id": "w09-reading",
+  "week": 9,
+  "kind": "drill",
+  "title": "第 9 週讀解練習（主旨判斷）",
+  "description": "隨筆一篇與商務郵件一篇，共 4 題。這週練「找主張句」——「〜のではないだろうか」「〜べきは〜のほうだろう」這類句型，那一句往往就是答案。另外注意作者會先提出一個假設再推翻它，被推翻的那個常常出現在選項裡。限時 13 分鐘。",
+  "section": "reading",
+  "questionIds": ["q-w09-r01", "q-w09-r02", "q-w09-r03", "q-w09-r04"],
+  "timeLimitSec": 780,
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

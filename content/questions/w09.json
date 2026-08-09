@@ -1,0 +1,407 @@
+{
+  "week": 9,
+  "questions": [
+    {
+      "id": "q-w09-01",
+      "week": 9,
+      "skill": "vocabulary",
+      "questionType": "文脈規定",
+      "stem": "資料{しりょう}は先{さき}ほど＿＿いたしました。大変{たいへん}参考{さんこう}になりました。",
+      "options": [
+        { "key": "A", "text": "ご覧{らん}に" },
+        { "key": "B", "text": "拝見{はいけん}" },
+        { "key": "C", "text": "召{め}し上{あ}がり" },
+        { "key": "D", "text": "おっしゃい" }
+      ],
+      "answer": "B",
+      "explanationZh": "「看」的動作是自己做的，所以要用謙讓語「拝見する」。對方看才用「ご覧になる」。",
+      "distractorNotesZh": {
+        "A": "「ご覧になる」是尊敬語，主語必須是對方。"
+      },
+      "relatedVocabIds": ["v-w09-02", "v-w09-09"],
+      "difficulty": "N2-core",
+      "tags": ["文脈規定", "謙譲語"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-02",
+      "week": 9,
+      "skill": "vocabulary",
+      "questionType": "文脈規定",
+      "stem": "部長{ぶちょう}が＿＿とおりに進{すす}めております。",
+      "options": [
+        { "key": "A", "text": "申{もう}し上{あ}げた" },
+        { "key": "B", "text": "伺{うかが}った" },
+        { "key": "C", "text": "おっしゃった" },
+        { "key": "D", "text": "存{ぞん}じた" }
+      ],
+      "answer": "C",
+      "explanationZh": "說話的是部長（對方），所以用尊敬語「おっしゃる」。自己說才用「申し上げる」。",
+      "relatedVocabIds": ["v-w09-05", "v-w09-07"],
+      "difficulty": "N2-core",
+      "tags": ["文脈規定", "尊敬語"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-03",
+      "week": 9,
+      "skill": "vocabulary",
+      "questionType": "文脈規定",
+      "stem": "ご注文{ちゅうもん}を確{たし}かに＿＿ました。ありがとうございます。",
+      "options": [
+        { "key": "A", "text": "なさい" },
+        { "key": "B", "text": "召{め}し上{あ}がり" },
+        { "key": "C", "text": "いらっしゃい" },
+        { "key": "D", "text": "承{うけたまわ}り" }
+      ],
+      "answer": "D",
+      "explanationZh": "接受訂單的是自己這一方，用謙讓語「承る」。這是客服與商務場面的固定說法。",
+      "relatedVocabIds": ["v-w09-03"],
+      "difficulty": "N2-advanced",
+      "tags": ["文脈規定", "謙譲語", "ビジネス"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-04",
+      "week": 9,
+      "skill": "vocabulary",
+      "questionType": "言い換え類義",
+      "stem": "館内{かんない}での飲食{いんしょく}はご遠慮{えんりょ}ください。",
+      "options": [
+        { "key": "A", "text": "館内{かんない}では飲食{いんしょく}してはいけない" },
+        { "key": "B", "text": "館内{かんない}では飲食{いんしょく}しなくてもよい" },
+        { "key": "C", "text": "館内{かんない}では静{しず}かに飲食{いんしょく}すること" },
+        { "key": "D", "text": "館内{かんない}での飲食{いんしょく}は自由{じゆう}である" }
+      ],
+      "answer": "A",
+      "explanationZh": "「ご遠慮ください」是委婉的禁止，實質上等於「してはいけない」。公告裡看到它就要當成禁止，情報検索題常考。",
+      "relatedVocabIds": ["v-w09-14"],
+      "difficulty": "N2-core",
+      "tags": ["言い換え類義", "お知らせ"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-05",
+      "week": 9,
+      "skill": "vocabulary",
+      "questionType": "文脈規定",
+      "stem": "お忙{いそが}しいところ＿＿ですが、ご確認{かくにん}いただけますでしょうか。",
+      "options": [
+        { "key": "A", "text": "承知{しょうち}" },
+        { "key": "B", "text": "遠慮{えんりょ}" },
+        { "key": "C", "text": "恐縮{きょうしゅく}" },
+        { "key": "D", "text": "拝見{はいけん}" }
+      ],
+      "answer": "C",
+      "explanationZh": "「お忙しいところ恐縮ですが」是商務請求的固定開場白。聽到或看到它，後面一定是請求。",
+      "relatedVocabIds": ["v-w09-12"],
+      "difficulty": "N2-core",
+      "tags": ["文脈規定", "ビジネス", "定型表現"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-06",
+      "week": 9,
+      "skill": "vocabulary",
+      "questionType": "用法",
+      "stem": "「伺{うかが}う」の使{つか}い方{かた}として適切{てきせつ}でないものはどれか。",
+      "options": [
+        { "key": "A", "text": "明日{あした}三時{さんじ}に御社{おんしゃ}へ伺{うかが}います。" },
+        { "key": "B", "text": "一点{いってん}、伺{うかが}いたいことがあるのですが。" },
+        { "key": "C", "text": "お客様{きゃくさま}、こちらへ伺{うかが}ってください。" },
+        { "key": "D", "text": "ご意見{いけん}を伺{うかが}えれば幸{さいわ}いです。" }
+      ],
+      "answer": "C",
+      "explanationZh": "「伺う」是謙讓語，主語必須是自己。請客人過來要用尊敬語「お越しください」或「いらしてください」。這題問的是「不適切」的用法，注意題目的問法。",
+      "relatedVocabIds": ["v-w09-01"],
+      "difficulty": "N2-advanced",
+      "tags": ["用法", "謙譲語"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-07",
+      "week": 9,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "先生{せんせい}はもう＿＿ました。",
+      "options": [
+        { "key": "A", "text": "お帰{かえ}りし" },
+        { "key": "B", "text": "お帰{かえ}りになり" },
+        { "key": "C", "text": "お帰{かえ}りいたし" },
+        { "key": "D", "text": "帰{かえ}らせていただき" }
+      ],
+      "answer": "B",
+      "explanationZh": "主語是老師（對方），要用尊敬語的型「お〜になる」。A 與 C 都是謙讓語的型，主語必須是自己。",
+      "distractorNotesZh": {
+        "A": "「お〜する」是謙讓語，而且「回家」沒有動作對象，本來就不能用。"
+      },
+      "relatedGrammarIds": ["g-w09-01", "g-w09-02"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "尊敬語", "易混"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-08",
+      "week": 9,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "資料{しりょう}は明日{あす}こちらから＿＿ます。",
+      "options": [
+        { "key": "A", "text": "お送{おく}りになり" },
+        { "key": "B", "text": "お送{おく}りいたし" },
+        { "key": "C", "text": "ご送{おく}りし" },
+        { "key": "D", "text": "送{おく}られ" }
+      ],
+      "answer": "B",
+      "explanationZh": "寄的是自己這一方，用謙讓語「お〜いたす」。「送る」是和語動詞，所以配「お」而不是「ご」。",
+      "distractorNotesZh": {
+        "A": "「お〜になる」是尊敬語，主語必須是對方。",
+        "C": "和語動詞要配「お」，「ご送りする」是錯的。"
+      },
+      "relatedGrammarIds": ["g-w09-02"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "謙譲語"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-09",
+      "week": 9,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "本日{ほんじつ}は十八時{じゅうはちじ}で閉店{へいてん}＿＿。",
+      "options": [
+        { "key": "A", "text": "させていただきます" },
+        { "key": "B", "text": "していただきます" },
+        { "key": "C", "text": "なさいます" },
+        { "key": "D", "text": "いたしかねます" }
+      ],
+      "answer": "A",
+      "explanationZh": "「～させていただく」用「得到許可」的形式禮貌地告知自己要做的事，是營業公告的固定說法。",
+      "distractorNotesZh": {
+        "C": "「なさる」是尊敬語，不能用在自己身上。",
+        "D": "「いたしかねます」是委婉拒絕，句意不通。"
+      },
+      "relatedGrammarIds": ["g-w09-03"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "謙譲語", "ビジネス"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-10",
+      "week": 9,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "申{もう}し訳{わけ}ございませんが、個別{こべつ}のご事情{じじょう}にはお答{こた}え＿＿。",
+      "options": [
+        { "key": "A", "text": "かねません" },
+        { "key": "B", "text": "いたしかねます" },
+        { "key": "C", "text": "させていただきます" },
+        { "key": "D", "text": "になります" }
+      ],
+      "answer": "B",
+      "explanationZh": "「～かねます」是委婉的拒絕。與第 1 週的「～かねない（有可能發生壞事）」只差一點，意思完全相反，要分清楚。",
+      "distractorNotesZh": {
+        "A": "「かねない」是「有可能會…」，用在這裡會變成「有可能回答」，語意矛盾。"
+      },
+      "relatedGrammarIds": ["g-w09-04", "g-w01-01"],
+      "difficulty": "N2-advanced",
+      "tags": ["文法形式の判断", "婉曲", "易混"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-11",
+      "week": 9,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "本当{ほんとう}に必要{ひつよう}なのは、制度{せいど}よりも意識{いしき}の変化{へんか}な＿＿。",
+      "options": [
+        { "key": "A", "text": "のではないだろうか" },
+        { "key": "B", "text": "わけがない" },
+        { "key": "C", "text": "に過{す}ぎない" },
+        { "key": "D", "text": "かねない" }
+      ],
+      "answer": "A",
+      "explanationZh": "「～のではないだろうか」形式上是疑問，實質上是作者婉轉提出的主張。讀解中看到它，那一句幾乎就是主旨題的答案。",
+      "relatedGrammarIds": ["g-w09-06"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "論説", "主張"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-12",
+      "week": 9,
+      "skill": "grammar",
+      "questionType": "文法形式の判断",
+      "stem": "お客様{きゃくさま}にお出{だ}しする前{まえ}に、私{わたし}も一度{いちど}＿＿。",
+      "options": [
+        { "key": "A", "text": "ご覧{らん}になります" },
+        { "key": "B", "text": "お確認{かくにん}になります" },
+        { "key": "C", "text": "確認{かくにん}させていただきます" },
+        { "key": "D", "text": "ご確認{かくにん}なさいます" }
+      ],
+      "answer": "C",
+      "explanationZh": "主語是「私」，所以只能用謙讓語。A、B、D 都是尊敬語的形式，主語必須是對方。這題三個干擾選項全是同一個錯誤——把方向弄反。",
+      "relatedGrammarIds": ["g-w09-03"],
+      "difficulty": "N2-core",
+      "tags": ["文法形式の判断", "謙譲語", "易混"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-r01",
+      "week": 9,
+      "skill": "reading",
+      "questionType": "主張理解",
+      "contextId": "read-w09-01",
+      "stem": "筆者{ひっしゃ}は敬語{けいご}の難{むずか}しさはどこにあると考{かんが}えているか。",
+      "options": [
+        { "key": "A", "text": "覚{おぼ}えるべき形{かたち}が非常{ひじょう}に多{おお}いこと" },
+        { "key": "B", "text": "毎回{まいかい}どこまで丁寧{ていねい}にするかを選{えら}ばなければならないこと" },
+        { "key": "C", "text": "尊敬語{そんけいご}と謙譲語{けんじょうご}を混同{こんどう}しやすいこと" },
+        { "key": "D", "text": "外国人{がいこくじん}には発音{はつおん}が難{むずか}しいこと" }
+      ],
+      "answer": "B",
+      "explanationZh": "第一段末：「難しいのは、どこまで丁寧にするかを毎回選ばなければならないところではないだろうか」。作者先用「形が複雑だからだろうか」提出一個假設再否定它（「形そのものは…それほど多くない」），A 就是被否定的那個。看到「〜のではないだろうか」就是主張句。",
+      "relatedGrammarIds": ["g-w09-06"],
+      "difficulty": "N2-core",
+      "tags": ["主張理解", "エッセイ"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-r02",
+      "week": 9,
+      "skill": "reading",
+      "questionType": "内容理解(中)",
+      "contextId": "read-w09-01",
+      "stem": "丁寧{ていねい}すぎる言葉{ことば}がかえって冷{つめ}たく響{ひび}くのはなぜか。",
+      "options": [
+        { "key": "A", "text": "相手{あいて}が意味{いみ}を理解{りかい}できないから" },
+        { "key": "B", "text": "形式的{けいしきてき}で心{こころ}がこもっていないから" },
+        { "key": "C", "text": "「私{わたし}たちはまだ遠{とお}い」という宣言{せんげん}を含{ふく}むから" },
+        { "key": "D", "text": "使{つか}う人{ひと}が少{すく}なくなったから" }
+      ],
+      "answer": "C",
+      "explanationZh": "第三段直接給出理由：「そこに『私たちはまだ遠い』という宣言が含まれてしまうからだ」。B 是常見的直覺答案，但文章講的是「距離」而不是「誠意」。",
+      "difficulty": "N2-advanced",
+      "tags": ["内容理解", "エッセイ"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-r03",
+      "week": 9,
+      "skill": "reading",
+      "questionType": "内容理解(中)",
+      "contextId": "read-w09-01",
+      "stem": "筆者{ひっしゃ}が「恥{は}じるべき」だと言{い}っているのはどんなことか。",
+      "options": [
+        { "key": "A", "text": "敬語{けいご}が正{ただ}しく使{つか}えないこと" },
+        { "key": "B", "text": "丁寧{ていねい}に言{い}えば済{す}むと思{おも}い込{こ}むこと" },
+        { "key": "C", "text": "外国語{がいこくご}として日本語{にほんご}を学{まな}ぶこと" },
+        { "key": "D", "text": "敬語{けいご}の形{かたち}を覚{おぼ}えようとしないこと" }
+      ],
+      "answer": "B",
+      "explanationZh": "最後一句：「恥じるべきは、丁寧に言えば済むと思い込むことのほうだろう」。A 正好是前一句明確否定的（「恥じる必要はまったくない」）。",
+      "difficulty": "N2-core",
+      "tags": ["内容理解", "エッセイ"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-r04",
+      "week": 9,
+      "skill": "reading",
+      "questionType": "情報検索",
+      "contextId": "read-w09-02",
+      "stem": "このメールの内容{ないよう}として正{ただ}しいものはどれか。",
+      "options": [
+        { "key": "A", "text": "来月{らいげつ}以降{いこう}に発注{はっちゅう}しても金額{きんがく}は変{か}わらない" },
+        { "key": "B", "text": "値引{ねび}きの相談{そうだん}には応{おう}じられない" },
+        { "key": "C", "text": "見積書{みつもりしょ}は後日{ごじつ}郵送{ゆうそう}される" },
+        { "key": "D", "text": "不明{ふめい}な点{てん}は問{と}い合{あ}わせないでほしい" }
+      ],
+      "answer": "B",
+      "explanationZh": "最後一段：「個別の値引きにつきましてはお応えいたしかねます」——「かねます」是委婉的拒絕。A 與第三段相反（本月底之後可能重新報價），C 錯（是附件），D 與第二段相反（歡迎詢問）。",
+      "relatedGrammarIds": ["g-w09-04"],
+      "difficulty": "N2-advanced",
+      "tags": ["情報検索", "ビジネス", "敬語"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-l01",
+      "week": 9,
+      "skill": "listening",
+      "questionType": "課題理解",
+      "contextId": "lis-w09-01",
+      "stem": "女{おんな}の人{ひと}はこのあとまず何{なに}をしますか。",
+      "options": [
+        { "key": "A", "text": "田中様{たなかさま}を応接室{おうせつしつ}に案内{あんない}する" },
+        { "key": "B", "text": "会議室{かいぎしつ}に内線{ないせん}をかける" },
+        { "key": "C", "text": "お茶{ちゃ}を出{だ}す" },
+        { "key": "D", "text": "資料{しりょう}を持{も}っていく" }
+      ],
+      "answer": "B",
+      "explanationZh": "男方先交代帶客人與端茶，但接著說「あ、それより、会議室の内線に一報入れて…そのほうが早い」——「それより」推翻了前面的順序。D 是男方自己要做的。",
+      "difficulty": "N2-advanced",
+      "tags": ["課題理解", "ビジネス"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-l02",
+      "week": 9,
+      "skill": "listening",
+      "questionType": "ポイント理解",
+      "contextId": "lis-w09-02",
+      "stem": "今回{こんかい}見送{みおく}ることになった決{き}め手{て}は何{なに}ですか。",
+      "options": [
+        { "key": "A", "text": "品質{ひんしつ}が他社{たしゃ}より劣{おと}っていたから" },
+        { "key": "B", "text": "価格{かかく}が高{たか}すぎたから" },
+        { "key": "C", "text": "納期{のうき}が年度内{ねんどない}に間{ま}に合{あ}わないから" },
+        { "key": "D", "text": "社内{しゃない}で検討{けんとう}する時間{じかん}がなかったから" }
+      ],
+      "answer": "C",
+      "explanationZh": "「ただ、納期が…年度内に間に合わないというのが決め手になりました」。A 正好相反——男方說品質「むしろ他社より優れている」。「ただ」之後才是真正的理由，這是第 8 週整理過的重點。",
+      "relatedVocabIds": ["v-w08-16"],
+      "difficulty": "N2-advanced",
+      "tags": ["ポイント理解", "ビジネス"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-l03",
+      "week": 9,
+      "skill": "listening",
+      "questionType": "即時応答",
+      "contextId": "lis-w09-03",
+      "stem": "二番{にばん}「資料{しりょう}はもうご覧{らん}になりましたか。」への返事{へんじ}として最{もっと}も適切{てきせつ}なものはどれか。",
+      "options": [
+        { "key": "A", "text": "はい、昨日{きのう}拝見{はいけん}いたしました。" },
+        { "key": "B", "text": "はい、昨日{きのう}ご覧{らん}になりました。" },
+        { "key": "C", "text": "いいえ、まだお目{め}にかけていません。" },
+        { "key": "D", "text": "はい、召{め}し上{あ}がりました。" }
+      ],
+      "answer": "A",
+      "explanationZh": "對方用尊敬語問「你看了嗎」，自己回答時要用謙讓語「拝見する」。B 是把尊敬語用在自己身上，這是最常見的敬語錯誤。C 的「お目にかける」是「給對方看」，方向不對。",
+      "relatedVocabIds": ["v-w09-02", "v-w09-09"],
+      "difficulty": "N2-advanced",
+      "tags": ["即時応答", "敬語"],
+      "source": { "type": "original", "label": "自製" }
+    },
+    {
+      "id": "q-w09-l04",
+      "week": 9,
+      "skill": "listening",
+      "questionType": "即時応答",
+      "contextId": "lis-w09-03",
+      "stem": "三番{さんばん}「申{もう}し訳{わけ}ございません、その件{けん}はお答{こた}えいたしかねます。」への返事{へんじ}として最{もっと}も適切{てきせつ}なものはどれか。",
+      "options": [
+        { "key": "A", "text": "ありがとうございます、助{たす}かりました。" },
+        { "key": "B", "text": "そうですか、承知{しょうち}いたしました。" },
+        { "key": "C", "text": "では、いつごろお答{こた}えいただけますか。" },
+        { "key": "D", "text": "はい、お答{こた}えいたします。" }
+      ],
+      "answer": "B",
+      "explanationZh": "「いたしかねます」是委婉的拒絕，所以要回以理解。A 誤以為對方答應了，C 沒聽出這是拒絕而非延後，D 把主語弄反了。",
+      "relatedGrammarIds": ["g-w09-04"],
+      "difficulty": "N2-advanced",
+      "tags": ["即時応答", "敬語", "婉曲"],
+      "source": { "type": "original", "label": "自製" }
+    }
+  ]
+}

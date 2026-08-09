@@ -1,0 +1,51 @@
+{
+  "week": 9,
+  "days": [
+    {
+      "dayIndex": 1,
+      "items": [
+        {
+          "kind": "note",
+          "title": "敬語只需要判斷一件事",
+          "body": "這個動作是**誰做的**。\n\n對方做 → 尊敬語（おっしゃる・ご覧になる・召し上がる・なさる）。\n自己做 → 謙讓語（申し上げる・拝見する・いただく・いたす）。\n\n最常見的錯誤是方向弄反：自己看東西說「ご覧になります」、請對方吃東西說「いただいてください」。考題就是靠這個出題，而且每年都考。\n\n先把對照表看熟，再看十六個詞。"
+        },
+        { "kind": "comparison", "comparisonIds": ["gc-w09-01"] },
+        { "kind": "vocabulary", "setId": "voc-w09" }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "items": [
+        { "kind": "grammar", "setId": "gra-w09" },
+        { "kind": "comparison", "comparisonIds": ["gc-w09-02", "gc-w09-03"] }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "items": [{ "kind": "quiz", "quizId": "w09-reading" }]
+    },
+    {
+      "dayIndex": 4,
+      "items": [{ "kind": "quiz", "quizId": "w09-listening" }]
+    },
+    {
+      "dayIndex": 5,
+      "items": [
+        { "kind": "mistake-review", "strategy": "spaced", "lookbackWeeks": 3, "count": 10 },
+        { "kind": "comparison", "comparisonIds": ["gc-w09-01"] }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "items": [{ "kind": "quiz", "quizId": "w09-review" }]
+    }
+  ],
+  "reviewQuizId": "w09-review",
+  "selfAssessmentPrompts": [
+    "看到一個敬語動詞，能立刻判斷它的主語應該是誰嗎？",
+    "「かねます（婉拒）」與第 1 週的「かねない（有可能發生壞事）」分得清楚嗎？",
+    "讀解時能找到「〜のではないだろうか」這類主張句嗎？",
+    "能力強化階段走了一半（第 6–9 週），四項能力中哪一項進步最明顯？"
+  ],
+  "note": "本週的敬語對照表放在 Day 1 語彙之前——先看懂「誰做決定用哪個」，再記個別的詞會快很多。"
+}

@@ -153,6 +153,47 @@ describe('日文標註格式', () => {
     }
   });
 
+  /**
+   * 撰寫時混進過英文單字（例如「お writings 差し支えなければ」）。
+   * 日文內容裡目前沒有任何需要用到連續拉丁字母的地方，
+   * 所以只要出現就是打錯了。
+   * 日後若真的要寫「PDF」「Wi-Fi」這類詞，把它加進 ALLOWED 即可。
+   */
+  it('日文欄位不含殘留的英文單字', () => {
+    const ALLOWED: string[] = [];
+    const fields: { label: string; text: string }[] = [];
+
+    for (const set of contentIndex.vocabularySets.values()) {
+      for (const item of set.items) {
+        fields.push({ label: `${item.id}.word`, text: item.word });
+        item.examples.forEach((ex, i) => fields.push({ label: `${item.id}.ex${i}`, text: ex.jp }));
+      }
+    }
+    for (const set of contentIndex.grammarSets.values()) {
+      for (const item of set.items) {
+        fields.push({ label: `${item.id}.connection`, text: item.connection });
+        item.examples.forEach((ex, i) => fields.push({ label: `${item.id}.ex${i}`, text: ex.jp }));
+      }
+    }
+    for (const q of contentIndex.questions.values()) {
+      fields.push({ label: `${q.id}.stem`, text: q.stem });
+      q.options.forEach((o) => fields.push({ label: `${q.id}.opt${o.key}`, text: o.text }));
+    }
+    for (const p of contentIndex.passages.values()) {
+      p.paragraphs.forEach((para, i) => fields.push({ label: `${p.id}.p${i}`, text: para }));
+    }
+    for (const l of contentIndex.listening.values()) {
+      if (l.ttsScript) fields.push({ label: `${l.id}.ttsScript`, text: l.ttsScript });
+      l.transcript.forEach((line, i) => fields.push({ label: `${l.id}.tr${i}`, text: line }));
+    }
+
+    expect(fields.length).toBeGreaterThan(500);
+    for (const field of fields) {
+      const found = (field.text.match(/[A-Za-z]{2,}/g) ?? []).filter((w) => !ALLOWED.includes(w));
+      expect(found, `${field.label} 混入了英文：${found.join(', ')}`).toEqual([]);
+    }
+  });
+
   it('語彙的 reading 欄位與標註的讀音一致', () => {
     for (const set of contentIndex.vocabularySets.values()) {
       for (const item of set.items) {
@@ -335,6 +376,20 @@ describe('題目品質', () => {
           contentIndex.passages.has(q.contextId) || contentIndex.listening.has(q.contextId),
           `${q.id} 的 contextId ${q.contextId} 找不到`,
         ).toBe(true);
+      }
+    }
+  });
+
+  /**
+   * 題幹與選項是直接渲染的，不會處理 Markdown 或 HTML。
+   * 寫了 **粗體** 或 <ruby> 會原樣顯示在畫面上。
+   */
+  it('題幹與選項沒有殘留的 Markdown 或 HTML 標記', () => {
+    for (const q of questions) {
+      const fields = [{ label: `${q.id}.stem`, text: q.stem }, ...q.options.map((o) => ({ label: `${q.id}.opt${o.key}`, text: o.text }))];
+      for (const field of fields) {
+        expect(field.text, `${field.label} 含有 Markdown 粗體`).not.toMatch(/\*\*/);
+        expect(field.text, `${field.label} 含有 HTML 標籤`).not.toMatch(/<[a-zA-Z/]/);
       }
     }
   });

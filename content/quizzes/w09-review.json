@@ -1,0 +1,26 @@
+{
+  "id": "w09-review",
+  "week": 9,
+  "kind": "weekly-review",
+  "title": "第 9 週複習測驗",
+  "description": "敬語與婉曲表現共 12 題。建議限時 12 分鐘。敬語題的判斷方式只有一個：這個動作是誰做的。對方做用尊敬語，自己做用謙讓語——方向弄反是最常見的錯誤。",
+  "section": "language-knowledge",
+  "questionIds": [
+    "q-w09-01",
+    "q-w09-02",
+    "q-w09-03",
+    "q-w09-04",
+    "q-w09-05",
+    "q-w09-06",
+    "q-w09-07",
+    "q-w09-08",
+    "q-w09-09",
+    "q-w09-10",
+    "q-w09-11",
+    "q-w09-12"
+  ],
+  "timeLimitSec": 720,
+  "showAnswerMode": "after-submit",
+  "passingAccuracy": 0.7,
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}
