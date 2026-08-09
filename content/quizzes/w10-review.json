@@ -1,0 +1,26 @@
+{
+  "id": "w10-review",
+  "week": 10,
+  "kind": "weekly-review",
+  "title": "第 10 週複習測驗",
+  "description": "公告語彙與限定表現共 12 題。建議限時 12 分鐘。「に限り」與「に限らず」只差一個字方向卻相反，這一組每年都考。",
+  "section": "language-knowledge",
+  "questionIds": [
+    "q-w10-01",
+    "q-w10-02",
+    "q-w10-03",
+    "q-w10-04",
+    "q-w10-05",
+    "q-w10-06",
+    "q-w10-07",
+    "q-w10-08",
+    "q-w10-09",
+    "q-w10-10",
+    "q-w10-11",
+    "q-w10-12"
+  ],
+  "timeLimitSec": 720,
+  "showAnswerMode": "after-submit",
+  "passingAccuracy": 0.7,
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

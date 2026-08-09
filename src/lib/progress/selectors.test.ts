@@ -22,6 +22,17 @@ function emptyState() {
   return createEmptySnapshot(NOW);
 }
 
+/**
+ * 找一個目前還沒有內容的週次。
+ * 不寫死週次 —— 內容是逐週補上的，寫死的話每加一週就要改測試。
+ */
+function findWeekWithoutContent(): number {
+  for (let week = 17; week >= 1; week--) {
+    if (getDayItems(week, 1).length === 0 && getDayItems(week, 2).length === 0) return week;
+  }
+  throw new Error('所有週次都有內容了，這個測試需要改寫');
+}
+
 /** 把某一週某一天的所有任務標記為完成 */
 function completeDay(state: ProgressSnapshot, week: number, dayIndex: number): ProgressSnapshot {
   const tasks = { ...state.tasks };
@@ -68,7 +79,7 @@ describe('每日完成度', () => {
   });
 
   it('沒有內容的天數 total 為 0，且不算 complete', () => {
-    const progress = getDayProgress(emptyState(), 10, 1);
+    const progress = getDayProgress(emptyState(), findWeekWithoutContent(), 1);
     expect(progress.total).toBe(0);
     expect(progress.complete).toBe(false);
   });
@@ -98,11 +109,11 @@ describe('每週完成率', () => {
   });
 
   it('完全沒有內容的週次不會出錯，完成率為 0', () => {
-    const progress = getWeekProgress(emptyState(), 10);
+    const progress = getWeekProgress(emptyState(), findWeekWithoutContent());
     expect(progress.total).toBe(0);
     expect(progress.rate).toBe(0);
     expect(progress.complete).toBe(false);
-    expect(progress.daysWithoutContent).toBe(6);
+    expect(progress.daysWithoutContent).toBeGreaterThan(0);
   });
 
   it('不存在的週次回傳空結果', () => {

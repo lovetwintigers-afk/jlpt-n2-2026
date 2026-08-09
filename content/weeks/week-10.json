@@ -1,0 +1,61 @@
+{
+  "week": 10,
+  "days": [
+    {
+      "dayIndex": 1,
+      "items": [
+        { "kind": "vocabulary", "setId": "voc-w10" },
+        { "kind": "comparison", "comparisonIds": ["gc-w10-01"] }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "items": [
+        { "kind": "grammar", "setId": "gra-w10" },
+        { "kind": "comparison", "comparisonIds": ["gc-w10-02"] }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "items": [
+        {
+          "kind": "note",
+          "title": "本週開始限時，先讀這個",
+          "body": "今天是第一次真正的限時讀解，時間比前幾週緊。\n\n情報検索題的解法**不是讀懂全文**，而是拿條件去比對：\n\n① 先看題目問的人有什麼條件——年齡、身分、住哪裡、哪一天、幾個人。\n② 帶著這些條件回文章找對應的欄位。\n③ **一定要檢查有沒有「ただし」。** 八成的錯誤都出在漏看例外。\n\n做不完不要緊。今天的目的是知道自己現在的速度在哪裡，之後才有東西可以改進。"
+        },
+        { "kind": "comparison", "comparisonIds": ["gc-w10-03"] },
+        { "kind": "quiz", "quizId": "w10-reading" }
+      ]
+    },
+    {
+      "dayIndex": 4,
+      "items": [
+        {
+          "kind": "note",
+          "title": "即時応答練的是反應，不是理解",
+          "body": "正式考試裡，即時応答只播一次，而且句子很短、沒有思考時間。所以練習的目標不是「想清楚」，是「聽完立刻有反應」。\n\n建議這樣做：**每題只聽一遍**就選。選錯沒關係，重點是養成不猶豫的習慣。想了三秒才選，在正式考試裡就已經錯過下一題了。\n\n第一段錄音有六題，只有三題要作答——剩下的請在腦中自己想答案。"
+        },
+        { "kind": "quiz", "quizId": "w10-listening" }
+      ]
+    },
+    {
+      "dayIndex": 5,
+      "items": [
+        { "kind": "mistake-review", "strategy": "spaced", "lookbackWeeks": 3, "count": 10 },
+        { "kind": "comparison", "comparisonIds": ["gc-w10-01", "gc-w10-03"] }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "items": [{ "kind": "quiz", "quizId": "w10-review" }]
+    }
+  ],
+  "reviewQuizId": "w10-review",
+  "selfAssessmentPrompts": [
+    "限時讀解在時間內做完了嗎？如果沒有，是卡在讀不懂還是找不到？",
+    "「ただし」「原則として」「別途」「以降」這幾個字出現時，有停下來確認嗎？",
+    "即時応答一遍就能反應嗎？還是需要聽兩三遍？",
+    "能力強化階段（第 6–10 週）結束了。接下來是題型整合，四項能力中哪一項最需要補？"
+  ],
+  "note": "這是能力強化階段的最後一週，也是第一次限時。下一階段（第 11–13 週）會開始混合題型與跨能力練習。"
+}

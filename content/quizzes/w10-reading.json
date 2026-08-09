@@ -1,0 +1,12 @@
+{
+  "id": "w10-reading",
+  "week": 10,
+  "kind": "drill",
+  "title": "第 10 週讀解練習（情報検索・限時 11 分鐘）",
+  "description": "兩篇公告共 5 題，時間比前幾週緊。情報検索不是「讀懂全文」，而是「拿條件去比對」——先看題目問的人有什麼條件（年齡、身分、日期、人數），再回文章找對應欄位，最後一定要檢查有沒有「ただし」。八成的錯誤都出在漏看例外條件。時間到會自動交卷，做不完也沒關係，先知道自己的速度。",
+  "section": "reading",
+  "questionIds": ["q-w10-r01", "q-w10-r02", "q-w10-r03", "q-w10-r04", "q-w10-r05"],
+  "timeLimitSec": 660,
+  "showAnswerMode": "after-submit",
+  "source": { "type": "original", "label": "自製", "note": "非官方 JLPT 真題" }
+}

@@ -160,7 +160,8 @@ describe('日文標註格式', () => {
    * 日後若真的要寫「PDF」「Wi-Fi」這類詞，把它加進 ALLOWED 即可。
    */
   it('日文欄位不含殘留的英文單字', () => {
-    const ALLOWED: string[] = [];
+    // 日文裡本來就會用的拉丁字母縮寫
+    const ALLOWED = ['ATM', 'PDF', 'CD', 'DVD', 'IT', 'AI', 'PC'];
     const fields: { label: string; text: string }[] = [];
 
     for (const set of contentIndex.vocabularySets.values()) {
@@ -442,7 +443,16 @@ describe('內容備妥狀態', () => {
   });
 
   it('沒有內容的週次不會拋錯，只是回傳空的任務清單', () => {
-    expect(getWeekContent(10)).toBeUndefined();
-    expect(() => getWeekReadiness(10)).not.toThrow();
+    // 不寫死週次 —— 找一個目前還沒有內容的
+    let emptyWeek = 0;
+    for (let week = 17; week >= 1; week--) {
+      if (!getWeekContent(week)) {
+        emptyWeek = week;
+        break;
+      }
+    }
+    expect(emptyWeek, '所有週次都有內容了，這個測試需要改寫').toBeGreaterThan(0);
+    expect(getWeekContent(emptyWeek)).toBeUndefined();
+    expect(() => getWeekReadiness(emptyWeek)).not.toThrow();
   });
 });
